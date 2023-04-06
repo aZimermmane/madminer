@@ -727,7 +727,7 @@ def _parse_xml_event(event, sampling_benchmark):
         status = int(elements[1])
         if elements[0] == "#aMCatNLO":
             elements = elements[1:]
-        if status == 1:
+        if status == 1 or status == 2:
             pdgid = int(elements[0])
             px = float(elements[6])
             py = float(elements[7])
