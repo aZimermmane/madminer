@@ -5,6 +5,7 @@ from matplotlib import pyplot as plt
 
 logger = logging.getLogger(__name__)
 
+weightCuttoff=10**4
 
 def plot_1d_morphing_basis(morpher, xlabel=r"$\theta$", xrange=(-1.0, 1.0), resolution=100):
     """
@@ -161,6 +162,7 @@ def plot_nd_morphing_basis_scatter(morpher, crange=(1.0, 100.0), n_test_thetas=1
 
     """
     basis = morpher.basis
+    label = morpher.parameter_label
 
     assert basis is not None, "No basis defined"
 
@@ -180,7 +182,7 @@ def plot_nd_morphing_basis_scatter(morpher, crange=(1.0, 100.0), n_test_thetas=1
             sc = plt.scatter(
                 thetas[:, ix],
                 thetas[:, iy],
-                c=squared_weights,
+                c=squared_weights ** 0.5,
                 s=20.0,
                 norm=matplotlib.colors.LogNorm(vmin=crange[0], vmax=crange[1]),
                 cmap="viridis_r",
@@ -189,8 +191,10 @@ def plot_nd_morphing_basis_scatter(morpher, crange=(1.0, 100.0), n_test_thetas=1
 
             plt.scatter(basis[:, ix], basis[:, iy], s=100.0, lw=1.0, edgecolor="black", c="white")
 
-            plt.xlabel(r"$\theta_" + str(ix) + "$")
-            plt.ylabel(r"$\theta_" + str(iy) + "$")
+            # plt.xlabel(r"$\theta_" + str(ix) + "$")
+            # plt.ylabel(r"$\theta_" + str(iy) + "$")
+            plt.xlabel(label[ix],fontsize=16)
+            plt.ylabel(label[iy],fontsize=16)
             cbar.set_label(r"$\sqrt{\sum w_i^2}$")
 
     plt.tight_layout()
@@ -220,6 +224,7 @@ def plot_nd_morphing_basis_slices(morpher, crange=(1.0, 100.0), resolution=50):
 
     """
     basis = morpher.basis
+    label = morpher.parameter_label
 
     assert basis is not None, "No basis defined"
 
@@ -249,6 +254,11 @@ def plot_nd_morphing_basis_slices(morpher, crange=(1.0, 100.0), resolution=50):
             squared_weights = []
             for theta in theta_test:
                 wi = morpher.calculate_morphing_weights(theta, None)
+                #import pdb; pdb.set_trace()
+                if (np.sum(wi * wi) ** 0.5>weightCuttoff):
+                    print("sqrt(sum_i(w_i^2)) bigger than ",weightCuttoff, " for")
+                    print("theta_test: ", theta_test)
+                    print("     sqrt(sum_i(w_i^2)); ", np.sum(wi * wi) ** 0.5)
                 squared_weights.append(np.sum(wi * wi) ** 0.5)
             squared_weights = np.array(squared_weights).reshape((resolution, resolution))
 
@@ -263,8 +273,10 @@ def plot_nd_morphing_basis_slices(morpher, crange=(1.0, 100.0), resolution=50):
 
             plt.scatter(basis[:, ix], basis[:, iy], s=100.0, lw=1.0, edgecolor="black", c="white")
 
-            plt.xlabel(r"$\theta_" + str(ix) + "$")
-            plt.ylabel(r"$\theta_" + str(iy) + "$")
+            # plt.xlabel(r"$\theta_" + str(ix) + "$")
+            # plt.ylabel(r"$\theta_" + str(iy) + "$")
+            plt.xlabel(label[ix],fontsize=16)
+            plt.ylabel(label[iy],fontsize=16)
             cbar.set_label(r"$\sqrt{\sum w_i^2}$")
 
     plt.tight_layout()

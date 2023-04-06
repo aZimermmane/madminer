@@ -1,0 +1,1 @@
+{"n_observables": 3, "n_parameters": 2, "features": null, "n_hidden": [60, 60], "activation": "relu", "dropout_prob": 0.0, "estimator_type": "likelihood", "n_components": 1, "batch_norm": null, "n_mades": 3}

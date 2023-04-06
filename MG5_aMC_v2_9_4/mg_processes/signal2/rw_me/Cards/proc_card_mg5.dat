@@ -1,0 +1,39 @@
+#************************************************************
+#*                     MadGraph5_aMC@NLO                    *
+#*                                                          *
+#*                *                       *                 *
+#*                  *        * *        *                   *
+#*                    * * * * 5 * * * *                     *
+#*                  *        * *        *                   *
+#*                *                       *                 *
+#*                                                          *
+#*                                                          *
+#*         VERSION 2.9.4                 2021-05-30         *
+#*                                                          *
+#*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+#*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+#*                                                          *
+#************************************************************
+#*                                                          *
+#*               Command File for MadGraph5_aMC@NLO         *
+#*                                                          *
+#*     run as ./bin/mg5_aMC  filename                       *
+#*                                                          *
+#************************************************************
+set ignore_six_quark_processes False
+set low_mem_multicore_nlo_generation False
+set complex_mass_scheme False
+set gauge unitary
+set loop_optimized_output True
+set loop_color_flows False
+set max_npoint_for_channel 0
+set default_unset_couplings 99
+set max_t_for_channel 99
+set zerowidth_tchannel True
+define p = g u c d s u~ c~ d~ s~
+define p = g u c d s u~ c~ d~ s~
+set group_subprocesses False
+generate p p > t t~ NP<=1, (t > w+ b  NP=0, w+ > lep lep NP=0), (t~ > \
+w- b~ NP=0, w- > lep lep NP=0)
+output standalone_rw /nfs/dust/cms/user/zimermma/madminer/MG5_aMC_v2_9\
+_4/mg_processes/signal2/rw_me --prefix=int

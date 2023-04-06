@@ -12,6 +12,8 @@ class AnalysisParameter:
     max_power: int
     val_range: Tuple[float, float]
     transform: str
+    label: str
+
 
     def __str__(self) -> str:
         """
@@ -28,6 +30,7 @@ class AnalysisParameter:
             f"LHA: {self.lha_block} {self.lha_id}, "
             f"Power: {self.max_power}, "
             f"Range: {self.val_range}"
+            f"Label: {self.label}"#A.Z.S: 18jan2023
             f")"
         )
 

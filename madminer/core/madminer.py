@@ -68,6 +68,7 @@ class MadMiner:
         lha_block,
         lha_id,
         parameter_name=None,
+        parameter_label=None,#A.Z.S: 18jan2023
         param_card_transform=None,
         morphing_max_power=2,
         parameter_range=(0.0, 1.0),
@@ -118,6 +119,7 @@ class MadMiner:
         assert isinstance(lha_block, str), f"LHA block is not a string: {lha_block}"
         assert isinstance(lha_id, int), f"LHA id is not an integer: {lha_id}"
         assert isinstance(parameter_name, str), f"Parameter name is not a string: {parameter_name}"
+        assert isinstance(parameter_label, str), f"Parameter label is not a string: {parameter_label}"
         assert isinstance(morphing_max_power, int), f"Morphing max power is not an integer: {morphing_max_power}"
 
         parameter_name = parameter_name.replace(" ", "_")
@@ -127,6 +129,7 @@ class MadMiner:
 
         parameter = AnalysisParameter(
             parameter_name,
+            parameter_label,
             lha_block,
             lha_id,
             morphing_max_power,
@@ -167,6 +170,7 @@ class MadMiner:
                     lha_block=param.lha_block,
                     lha_id=param.lha_id,
                     parameter_name=param.name,
+                    parameter_label=param.label,
                     morphing_max_power=param.max_power,
                     parameter_range=param.val_range,
                 )

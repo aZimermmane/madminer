@@ -1,0 +1,2526 @@
+
+C     PY ((2, -2), (-12, -11, -5, 5, 11, 12)) : (2, -2, 5, -11, 12,
+C      -5, 11, -12) # M4_ 1
+C     PY ((2, -2), (-13, -12, -5, 5, 11, 14)) : (2, -2, 5, -13, 14,
+C      -5, 11, -12) # M5_ 1
+C     PY ((2, -2), (-14, -11, -5, 5, 12, 13)) : (2, -2, 5, -11, 12,
+C      -5, 13, -14) # M6_ 1
+C     PY ((2, -2), (-14, -13, -5, 5, 13, 14)) : (2, -2, 5, -13, 14,
+C      -5, 13, -14) # M7_ 1
+C     PY ((2, -4), (-12, -11, -5, 5, 11, 12)) : (2, -4, 5, -11, 12,
+C      -5, 11, -12) # M8_ 1
+C     PY ((2, -4), (-13, -12, -5, 5, 11, 14)) : (2, -4, 5, -13, 14,
+C      -5, 11, -12) # M9_ 1
+C     PY ((2, -4), (-14, -11, -5, 5, 12, 13)) : (2, -4, 5, -11, 12,
+C      -5, 13, -14) # M10_ 1
+C     PY ((2, -4), (-14, -13, -5, 5, 13, 14)) : (2, -4, 5, -13, 14,
+C      -5, 13, -14) # M11_ 1
+C     PY ((4, -2), (-12, -11, -5, 5, 11, 12)) : (4, -2, 5, -11, 12,
+C      -5, 11, -12) # M12_ 1
+C     PY ((4, -2), (-13, -12, -5, 5, 11, 14)) : (4, -2, 5, -13, 14,
+C      -5, 11, -12) # M13_ 1
+C     PY ((4, -2), (-14, -11, -5, 5, 12, 13)) : (4, -2, 5, -11, 12,
+C      -5, 13, -14) # M14_ 1
+C     PY ((4, -2), (-14, -13, -5, 5, 13, 14)) : (4, -2, 5, -13, 14,
+C      -5, 13, -14) # M15_ 1
+C     PY ((4, -4), (-12, -11, -5, 5, 11, 12)) : (4, -4, 5, -11, 12,
+C      -5, 11, -12) # M16_ 1
+C     PY ((4, -4), (-13, -12, -5, 5, 11, 14)) : (4, -4, 5, -13, 14,
+C      -5, 11, -12) # M17_ 1
+C     PY ((4, -4), (-14, -11, -5, 5, 12, 13)) : (4, -4, 5, -11, 12,
+C      -5, 13, -14) # M18_ 1
+C     PY ((4, -4), (-14, -13, -5, 5, 13, 14)) : (4, -4, 5, -13, 14,
+C      -5, 13, -14) # M19_ 1
+C     PY ((1, -1), (-12, -11, -5, 5, 11, 12)) : (1, -1, 5, -11, 12,
+C      -5, 11, -12) # M20_ 1
+C     PY ((1, -1), (-13, -12, -5, 5, 11, 14)) : (1, -1, 5, -13, 14,
+C      -5, 11, -12) # M21_ 1
+C     PY ((1, -1), (-14, -11, -5, 5, 12, 13)) : (1, -1, 5, -11, 12,
+C      -5, 13, -14) # M22_ 1
+C     PY ((1, -1), (-14, -13, -5, 5, 13, 14)) : (1, -1, 5, -13, 14,
+C      -5, 13, -14) # M23_ 1
+C     PY ((1, -3), (-12, -11, -5, 5, 11, 12)) : (1, -3, 5, -11, 12,
+C      -5, 11, -12) # M24_ 1
+C     PY ((1, -3), (-13, -12, -5, 5, 11, 14)) : (1, -3, 5, -13, 14,
+C      -5, 11, -12) # M25_ 1
+C     PY ((1, -3), (-14, -11, -5, 5, 12, 13)) : (1, -3, 5, -11, 12,
+C      -5, 13, -14) # M26_ 1
+C     PY ((1, -3), (-14, -13, -5, 5, 13, 14)) : (1, -3, 5, -13, 14,
+C      -5, 13, -14) # M27_ 1
+C     PY ((1, -5), (-12, -11, -5, 5, 11, 12)) : (1, -5, 5, -11, 12,
+C      -5, 11, -12) # M28_ 1
+C     PY ((1, -5), (-13, -12, -5, 5, 11, 14)) : (1, -5, 5, -13, 14,
+C      -5, 11, -12) # M29_ 1
+C     PY ((1, -5), (-14, -11, -5, 5, 12, 13)) : (1, -5, 5, -11, 12,
+C      -5, 13, -14) # M30_ 1
+C     PY ((1, -5), (-14, -13, -5, 5, 13, 14)) : (1, -5, 5, -13, 14,
+C      -5, 13, -14) # M31_ 1
+C     PY ((3, -1), (-12, -11, -5, 5, 11, 12)) : (3, -1, 5, -11, 12,
+C      -5, 11, -12) # M32_ 1
+C     PY ((3, -1), (-13, -12, -5, 5, 11, 14)) : (3, -1, 5, -13, 14,
+C      -5, 11, -12) # M33_ 1
+C     PY ((3, -1), (-14, -11, -5, 5, 12, 13)) : (3, -1, 5, -11, 12,
+C      -5, 13, -14) # M34_ 1
+C     PY ((3, -1), (-14, -13, -5, 5, 13, 14)) : (3, -1, 5, -13, 14,
+C      -5, 13, -14) # M35_ 1
+C     PY ((3, -3), (-12, -11, -5, 5, 11, 12)) : (3, -3, 5, -11, 12,
+C      -5, 11, -12) # M36_ 1
+C     PY ((3, -3), (-13, -12, -5, 5, 11, 14)) : (3, -3, 5, -13, 14,
+C      -5, 11, -12) # M37_ 1
+C     PY ((3, -3), (-14, -11, -5, 5, 12, 13)) : (3, -3, 5, -11, 12,
+C      -5, 13, -14) # M38_ 1
+C     PY ((3, -3), (-14, -13, -5, 5, 13, 14)) : (3, -3, 5, -13, 14,
+C      -5, 13, -14) # M39_ 1
+C     PY ((3, -5), (-12, -11, -5, 5, 11, 12)) : (3, -5, 5, -11, 12,
+C      -5, 11, -12) # M40_ 1
+C     PY ((3, -5), (-13, -12, -5, 5, 11, 14)) : (3, -5, 5, -13, 14,
+C      -5, 11, -12) # M41_ 1
+C     PY ((3, -5), (-14, -11, -5, 5, 12, 13)) : (3, -5, 5, -11, 12,
+C      -5, 13, -14) # M42_ 1
+C     PY ((3, -5), (-14, -13, -5, 5, 13, 14)) : (3, -5, 5, -13, 14,
+C      -5, 13, -14) # M43_ 1
+C     PY ((-1, 5), (-12, -11, -5, 5, 11, 12)) : (-1, 5, 5, -11, 12,
+C      -5, 11, -12) # M68_ 1
+C     PY ((-1, 5), (-13, -12, -5, 5, 11, 14)) : (-1, 5, 5, -13, 14,
+C      -5, 11, -12) # M69_ 1
+C     PY ((-1, 5), (-14, -11, -5, 5, 12, 13)) : (-1, 5, 5, -11, 12,
+C      -5, 13, -14) # M70_ 1
+C     PY ((-1, 5), (-14, -13, -5, 5, 13, 14)) : (-1, 5, 5, -13, 14,
+C      -5, 13, -14) # M71_ 1
+C     PY ((-3, 5), (-12, -11, -5, 5, 11, 12)) : (-3, 5, 5, -11, 12,
+C      -5, 11, -12) # M80_ 1
+C     PY ((-3, 5), (-13, -12, -5, 5, 11, 14)) : (-3, 5, 5, -13, 14,
+C      -5, 11, -12) # M81_ 1
+C     PY ((-3, 5), (-14, -11, -5, 5, 12, 13)) : (-3, 5, 5, -11, 12,
+C      -5, 13, -14) # M82_ 1
+C     PY ((-3, 5), (-14, -13, -5, 5, 13, 14)) : (-3, 5, 5, -13, 14,
+C      -5, 13, -14) # M83_ 1
+C     PY ((5, -5), (-12, -11, -5, 5, 11, 12)) : (5, -5, 5, -11, 12,
+C      -5, 11, -12) # M92_ 1
+C     PY ((5, -5), (-13, -12, -5, 5, 11, 14)) : (5, -5, 5, -13, 14,
+C      -5, 11, -12) # M93_ 1
+C     PY ((5, -5), (-14, -11, -5, 5, 12, 13)) : (5, -5, 5, -11, 12,
+C      -5, 13, -14) # M94_ 1
+C     PY ((5, -5), (-14, -13, -5, 5, 13, 14)) : (5, -5, 5, -13, 14,
+C      -5, 13, -14) # M95_ 1
+      SUBROUTINE SMATRIXHEL(PDGS, PROCID, NPDG, P, ALPHAS, SCALE2,
+     $  NHEL, ANS)
+      IMPLICIT NONE
+C     ALPHAS is given at scale2 (SHOULD be different of 0 for loop
+C      induced, ignore for LO)  
+
+CF2PY double precision, intent(in), dimension(0:3,npdg) :: p
+CF2PY integer, intent(in), dimension(npdg) :: pdgs
+CF2PY integer, intent(in):: procid
+CF2PY integer, intent(in) :: npdg
+CF2PY double precision, intent(out) :: ANS
+CF2PY double precision, intent(in) :: ALPHAS
+CF2PY double precision, intent(in) :: SCALE2
+      INTEGER PDGS(*)
+      INTEGER NPDG, NHEL, PROCID
+      DOUBLE PRECISION P(*)
+      DOUBLE PRECISION ANS, ALPHAS, PI,SCALE2
+      INCLUDE 'coupl.inc'
+
+      PI = 3.141592653589793D0
+      G = 2* DSQRT(ALPHAS*PI)
+      CALL UPDATE_AS_PARAM()
+C     if (scale2.ne.0d0) stop 1
+
+      IF(2.EQ.PDGS(1).AND.-2.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 0
+        CALL M4_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(2.EQ.PDGS(1).AND.-2.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 1
+        CALL M5_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(2.EQ.PDGS(1).AND.-2.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 2
+        CALL M6_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(2.EQ.PDGS(1).AND.-2.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 3
+        CALL M7_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(2.EQ.PDGS(1).AND.-4.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 4
+        CALL M8_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(2.EQ.PDGS(1).AND.-4.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 5
+        CALL M9_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(2.EQ.PDGS(1).AND.-4.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 6
+        CALL M10_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(2.EQ.PDGS(1).AND.-4.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 7
+        CALL M11_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(4.EQ.PDGS(1).AND.-2.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 8
+        CALL M12_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(4.EQ.PDGS(1).AND.-2.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 9
+        CALL M13_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(4.EQ.PDGS(1).AND.-2.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 10
+        CALL M14_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(4.EQ.PDGS(1).AND.-2.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 11
+        CALL M15_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(4.EQ.PDGS(1).AND.-4.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 12
+        CALL M16_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(4.EQ.PDGS(1).AND.-4.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 13
+        CALL M17_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(4.EQ.PDGS(1).AND.-4.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 14
+        CALL M18_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(4.EQ.PDGS(1).AND.-4.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 15
+        CALL M19_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(1.EQ.PDGS(1).AND.-1.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 16
+        CALL M20_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(1.EQ.PDGS(1).AND.-1.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 17
+        CALL M21_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(1.EQ.PDGS(1).AND.-1.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 18
+        CALL M22_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(1.EQ.PDGS(1).AND.-1.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 19
+        CALL M23_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(1.EQ.PDGS(1).AND.-3.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 20
+        CALL M24_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(1.EQ.PDGS(1).AND.-3.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 21
+        CALL M25_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(1.EQ.PDGS(1).AND.-3.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 22
+        CALL M26_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(1.EQ.PDGS(1).AND.-3.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 23
+        CALL M27_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(1.EQ.PDGS(1).AND.-5.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 24
+        CALL M28_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(1.EQ.PDGS(1).AND.-5.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 25
+        CALL M29_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(1.EQ.PDGS(1).AND.-5.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 26
+        CALL M30_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(1.EQ.PDGS(1).AND.-5.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 27
+        CALL M31_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(3.EQ.PDGS(1).AND.-1.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 28
+        CALL M32_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(3.EQ.PDGS(1).AND.-1.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 29
+        CALL M33_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(3.EQ.PDGS(1).AND.-1.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 30
+        CALL M34_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(3.EQ.PDGS(1).AND.-1.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 31
+        CALL M35_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(3.EQ.PDGS(1).AND.-3.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 32
+        CALL M36_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(3.EQ.PDGS(1).AND.-3.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 33
+        CALL M37_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(3.EQ.PDGS(1).AND.-3.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 34
+        CALL M38_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(3.EQ.PDGS(1).AND.-3.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 35
+        CALL M39_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(3.EQ.PDGS(1).AND.-5.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 36
+        CALL M40_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(3.EQ.PDGS(1).AND.-5.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 37
+        CALL M41_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(3.EQ.PDGS(1).AND.-5.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 38
+        CALL M42_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(3.EQ.PDGS(1).AND.-5.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 39
+        CALL M43_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(-1.EQ.PDGS(1).AND.5.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 40
+        CALL M68_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(-1.EQ.PDGS(1).AND.5.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 41
+        CALL M69_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(-1.EQ.PDGS(1).AND.5.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 42
+        CALL M70_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(-1.EQ.PDGS(1).AND.5.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 43
+        CALL M71_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(-3.EQ.PDGS(1).AND.5.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 44
+        CALL M80_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(-3.EQ.PDGS(1).AND.5.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 45
+        CALL M81_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(-3.EQ.PDGS(1).AND.5.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 46
+        CALL M82_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(-3.EQ.PDGS(1).AND.5.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 47
+        CALL M83_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(5.EQ.PDGS(1).AND.-5.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 48
+        CALL M92_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(5.EQ.PDGS(1).AND.-5.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.11.EQ.PDGS(7).AND.-12.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 49
+        CALL M93_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(5.EQ.PDGS(1).AND.-5.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -11.EQ.PDGS(4).AND.12.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 50
+        CALL M94_SMATRIXHEL(P, NHEL, ANS)
+      ELSE IF(5.EQ.PDGS(1).AND.-5.EQ.PDGS(2).AND.5.EQ.PDGS(3).AND.
+     $ -13.EQ.PDGS(4).AND.14.EQ.PDGS(5).AND.-5.EQ.PDGS(6)
+     $ .AND.13.EQ.PDGS(7).AND.-14.EQ.PDGS(8)
+     $ .AND.(PROCID.LE.0.OR.PROCID.EQ.1)) THEN  ! 51
+        CALL M95_SMATRIXHEL(P, NHEL, ANS)
+      ENDIF
+
+      RETURN
+      END
+
+      SUBROUTINE INITIALISE(PATH)
+C     ROUTINE FOR F2PY to read the benchmark point.
+      IMPLICIT NONE
+      CHARACTER*512 PATH
+CF2PY INTENT(IN) :: PATH
+      CALL SETPARA(PATH)  !first call to setup the paramaters
+      RETURN
+      END
+
+
+      SUBROUTINE CHANGE_PARA(NAME, VALUE)
+      IMPLICIT NONE
+CF2PY intent(in) :: name
+CF2PY intent(in) :: value
+
+      CHARACTER*512 NAME
+      DOUBLE PRECISION VALUE
+
+      LOGICAL M9_HELRESET
+      COMMON /M9_HELRESET/ M9_HELRESET
+      LOGICAL M16_HELRESET
+      COMMON /M16_HELRESET/ M16_HELRESET
+      LOGICAL M23_HELRESET
+      COMMON /M23_HELRESET/ M23_HELRESET
+      LOGICAL M32_HELRESET
+      COMMON /M32_HELRESET/ M32_HELRESET
+      LOGICAL M39_HELRESET
+      COMMON /M39_HELRESET/ M39_HELRESET
+      LOGICAL M43_HELRESET
+      COMMON /M43_HELRESET/ M43_HELRESET
+      LOGICAL M25_HELRESET
+      COMMON /M25_HELRESET/ M25_HELRESET
+      LOGICAL M68_HELRESET
+      COMMON /M68_HELRESET/ M68_HELRESET
+      LOGICAL M24_HELRESET
+      COMMON /M24_HELRESET/ M24_HELRESET
+      LOGICAL M37_HELRESET
+      COMMON /M37_HELRESET/ M37_HELRESET
+      LOGICAL M41_HELRESET
+      COMMON /M41_HELRESET/ M41_HELRESET
+      LOGICAL M94_HELRESET
+      COMMON /M94_HELRESET/ M94_HELRESET
+      LOGICAL M71_HELRESET
+      COMMON /M71_HELRESET/ M71_HELRESET
+      LOGICAL M22_HELRESET
+      COMMON /M22_HELRESET/ M22_HELRESET
+      LOGICAL M40_HELRESET
+      COMMON /M40_HELRESET/ M40_HELRESET
+      LOGICAL M10_HELRESET
+      COMMON /M10_HELRESET/ M10_HELRESET
+      LOGICAL M18_HELRESET
+      COMMON /M18_HELRESET/ M18_HELRESET
+      LOGICAL M4_HELRESET
+      COMMON /M4_HELRESET/ M4_HELRESET
+      LOGICAL M20_HELRESET
+      COMMON /M20_HELRESET/ M20_HELRESET
+      LOGICAL M92_HELRESET
+      COMMON /M92_HELRESET/ M92_HELRESET
+      LOGICAL M7_HELRESET
+      COMMON /M7_HELRESET/ M7_HELRESET
+      LOGICAL M69_HELRESET
+      COMMON /M69_HELRESET/ M69_HELRESET
+      LOGICAL M27_HELRESET
+      COMMON /M27_HELRESET/ M27_HELRESET
+      LOGICAL M8_HELRESET
+      COMMON /M8_HELRESET/ M8_HELRESET
+      LOGICAL M19_HELRESET
+      COMMON /M19_HELRESET/ M19_HELRESET
+      LOGICAL M33_HELRESET
+      COMMON /M33_HELRESET/ M33_HELRESET
+      LOGICAL M34_HELRESET
+      COMMON /M34_HELRESET/ M34_HELRESET
+      LOGICAL M93_HELRESET
+      COMMON /M93_HELRESET/ M93_HELRESET
+      LOGICAL M83_HELRESET
+      COMMON /M83_HELRESET/ M83_HELRESET
+      LOGICAL M29_HELRESET
+      COMMON /M29_HELRESET/ M29_HELRESET
+      LOGICAL M95_HELRESET
+      COMMON /M95_HELRESET/ M95_HELRESET
+      LOGICAL M28_HELRESET
+      COMMON /M28_HELRESET/ M28_HELRESET
+      LOGICAL M14_HELRESET
+      COMMON /M14_HELRESET/ M14_HELRESET
+      LOGICAL M31_HELRESET
+      COMMON /M31_HELRESET/ M31_HELRESET
+      LOGICAL M17_HELRESET
+      COMMON /M17_HELRESET/ M17_HELRESET
+      LOGICAL M13_HELRESET
+      COMMON /M13_HELRESET/ M13_HELRESET
+      LOGICAL M80_HELRESET
+      COMMON /M80_HELRESET/ M80_HELRESET
+      LOGICAL M12_HELRESET
+      COMMON /M12_HELRESET/ M12_HELRESET
+      LOGICAL M38_HELRESET
+      COMMON /M38_HELRESET/ M38_HELRESET
+      LOGICAL M35_HELRESET
+      COMMON /M35_HELRESET/ M35_HELRESET
+      LOGICAL M15_HELRESET
+      COMMON /M15_HELRESET/ M15_HELRESET
+      LOGICAL M42_HELRESET
+      COMMON /M42_HELRESET/ M42_HELRESET
+      LOGICAL M26_HELRESET
+      COMMON /M26_HELRESET/ M26_HELRESET
+      LOGICAL M5_HELRESET
+      COMMON /M5_HELRESET/ M5_HELRESET
+      LOGICAL M36_HELRESET
+      COMMON /M36_HELRESET/ M36_HELRESET
+      LOGICAL M81_HELRESET
+      COMMON /M81_HELRESET/ M81_HELRESET
+      LOGICAL M11_HELRESET
+      COMMON /M11_HELRESET/ M11_HELRESET
+      LOGICAL M82_HELRESET
+      COMMON /M82_HELRESET/ M82_HELRESET
+      LOGICAL M30_HELRESET
+      COMMON /M30_HELRESET/ M30_HELRESET
+      LOGICAL M70_HELRESET
+      COMMON /M70_HELRESET/ M70_HELRESET
+      LOGICAL M6_HELRESET
+      COMMON /M6_HELRESET/ M6_HELRESET
+      LOGICAL M21_HELRESET
+      COMMON /M21_HELRESET/ M21_HELRESET
+
+      INCLUDE '../Source/MODEL/input.inc'
+      INCLUDE '../Source/MODEL/coupl.inc'
+
+      M9_HELRESET = .TRUE.
+      M16_HELRESET = .TRUE.
+      M23_HELRESET = .TRUE.
+      M32_HELRESET = .TRUE.
+      M39_HELRESET = .TRUE.
+      M43_HELRESET = .TRUE.
+      M25_HELRESET = .TRUE.
+      M68_HELRESET = .TRUE.
+      M24_HELRESET = .TRUE.
+      M37_HELRESET = .TRUE.
+      M41_HELRESET = .TRUE.
+      M94_HELRESET = .TRUE.
+      M71_HELRESET = .TRUE.
+      M22_HELRESET = .TRUE.
+      M40_HELRESET = .TRUE.
+      M10_HELRESET = .TRUE.
+      M18_HELRESET = .TRUE.
+      M4_HELRESET = .TRUE.
+      M20_HELRESET = .TRUE.
+      M92_HELRESET = .TRUE.
+      M7_HELRESET = .TRUE.
+      M69_HELRESET = .TRUE.
+      M27_HELRESET = .TRUE.
+      M8_HELRESET = .TRUE.
+      M19_HELRESET = .TRUE.
+      M33_HELRESET = .TRUE.
+      M34_HELRESET = .TRUE.
+      M93_HELRESET = .TRUE.
+      M83_HELRESET = .TRUE.
+      M29_HELRESET = .TRUE.
+      M95_HELRESET = .TRUE.
+      M28_HELRESET = .TRUE.
+      M14_HELRESET = .TRUE.
+      M31_HELRESET = .TRUE.
+      M17_HELRESET = .TRUE.
+      M13_HELRESET = .TRUE.
+      M80_HELRESET = .TRUE.
+      M12_HELRESET = .TRUE.
+      M38_HELRESET = .TRUE.
+      M35_HELRESET = .TRUE.
+      M15_HELRESET = .TRUE.
+      M42_HELRESET = .TRUE.
+      M26_HELRESET = .TRUE.
+      M5_HELRESET = .TRUE.
+      M36_HELRESET = .TRUE.
+      M81_HELRESET = .TRUE.
+      M11_HELRESET = .TRUE.
+      M82_HELRESET = .TRUE.
+      M30_HELRESET = .TRUE.
+      M70_HELRESET = .TRUE.
+      M6_HELRESET = .TRUE.
+      M21_HELRESET = .TRUE.
+
+      SELECT CASE (NAME)
+      CASE ('Lambda')
+      MDL_LAMBDA = VALUE
+      CASE ('DIM6_1')
+      MDL_LAMBDA = VALUE
+      CASE ('ctp')
+      MDL_CTP = VALUE
+      CASE ('DIM6_2')
+      MDL_CTP = VALUE
+      CASE ('ctpI')
+      MDL_CTPI = VALUE
+      CASE ('DIM6_3')
+      MDL_CTPI = VALUE
+      CASE ('cpQM')
+      MDL_CPQM = VALUE
+      CASE ('DIM6_4')
+      MDL_CPQM = VALUE
+      CASE ('cpQ3')
+      MDL_CPQ3 = VALUE
+      CASE ('DIM6_5')
+      MDL_CPQ3 = VALUE
+      CASE ('cpt')
+      MDL_CPT = VALUE
+      CASE ('DIM6_6')
+      MDL_CPT = VALUE
+      CASE ('cpb')
+      MDL_CPB = VALUE
+      CASE ('DIM6_7')
+      MDL_CPB = VALUE
+      CASE ('cptb')
+      MDL_CPTB = VALUE
+      CASE ('DIM6_8')
+      MDL_CPTB = VALUE
+      CASE ('cptbI')
+      MDL_CPTBI = VALUE
+      CASE ('DIM6_9')
+      MDL_CPTBI = VALUE
+      CASE ('ctW')
+      MDL_CTW = VALUE
+      CASE ('DIM6_10')
+      MDL_CTW = VALUE
+      CASE ('ctZ')
+      MDL_CTZ = VALUE
+      CASE ('DIM6_11')
+      MDL_CTZ = VALUE
+      CASE ('ctWI')
+      MDL_CTWI = VALUE
+      CASE ('DIM6_12')
+      MDL_CTWI = VALUE
+      CASE ('ctZI')
+      MDL_CTZI = VALUE
+      CASE ('DIM6_13')
+      MDL_CTZI = VALUE
+      CASE ('cbW')
+      MDL_CBW = VALUE
+      CASE ('DIM6_14')
+      MDL_CBW = VALUE
+      CASE ('cbWI')
+      MDL_CBWI = VALUE
+      CASE ('DIM6_15')
+      MDL_CBWI = VALUE
+      CASE ('ctG')
+      MDL_CTG = VALUE
+      CASE ('DIM6_16')
+      MDL_CTG = VALUE
+      CASE ('ctGI')
+      MDL_CTGI = VALUE
+      CASE ('DIM6_17')
+      MDL_CTGI = VALUE
+      CASE ('cQlM1')
+      MDL_CQLM1 = VALUE
+      CASE ('DIM6_18')
+      MDL_CQLM1 = VALUE
+      CASE ('cQlM2')
+      MDL_CQLM2 = VALUE
+      CASE ('DIM6_19')
+      MDL_CQLM2 = VALUE
+      CASE ('cQlM3')
+      MDL_CQLM3 = VALUE
+      CASE ('DIM6_20')
+      MDL_CQLM3 = VALUE
+      CASE ('cQl31')
+      MDL_CQL31 = VALUE
+      CASE ('DIM6_21')
+      MDL_CQL31 = VALUE
+      CASE ('cQl32')
+      MDL_CQL32 = VALUE
+      CASE ('DIM6_22')
+      MDL_CQL32 = VALUE
+      CASE ('cQl33')
+      MDL_CQL33 = VALUE
+      CASE ('DIM6_23')
+      MDL_CQL33 = VALUE
+      CASE ('cQe1')
+      MDL_CQE1 = VALUE
+      CASE ('DIM6_24')
+      MDL_CQE1 = VALUE
+      CASE ('cQe2')
+      MDL_CQE2 = VALUE
+      CASE ('DIM6_25')
+      MDL_CQE2 = VALUE
+      CASE ('cQe3')
+      MDL_CQE3 = VALUE
+      CASE ('DIM6_26')
+      MDL_CQE3 = VALUE
+      CASE ('ctl1')
+      MDL_CTL1 = VALUE
+      CASE ('DIM6_27')
+      MDL_CTL1 = VALUE
+      CASE ('ctl2')
+      MDL_CTL2 = VALUE
+      CASE ('DIM6_28')
+      MDL_CTL2 = VALUE
+      CASE ('ctl3')
+      MDL_CTL3 = VALUE
+      CASE ('DIM6_29')
+      MDL_CTL3 = VALUE
+      CASE ('cte1')
+      MDL_CTE1 = VALUE
+      CASE ('DIM6_30')
+      MDL_CTE1 = VALUE
+      CASE ('cte2')
+      MDL_CTE2 = VALUE
+      CASE ('DIM6_31')
+      MDL_CTE2 = VALUE
+      CASE ('cte3')
+      MDL_CTE3 = VALUE
+      CASE ('DIM6_32')
+      MDL_CTE3 = VALUE
+      CASE ('ctlS1')
+      MDL_CTLS1 = VALUE
+      CASE ('DIM6_33')
+      MDL_CTLS1 = VALUE
+      CASE ('ctlSI1')
+      MDL_CTLSI1 = VALUE
+      CASE ('DIM6_34')
+      MDL_CTLSI1 = VALUE
+      CASE ('ctlS2')
+      MDL_CTLS2 = VALUE
+      CASE ('DIM6_35')
+      MDL_CTLS2 = VALUE
+      CASE ('ctlSI2')
+      MDL_CTLSI2 = VALUE
+      CASE ('DIM6_36')
+      MDL_CTLSI2 = VALUE
+      CASE ('ctlS3')
+      MDL_CTLS3 = VALUE
+      CASE ('DIM6_37')
+      MDL_CTLS3 = VALUE
+      CASE ('ctlSI3')
+      MDL_CTLSI3 = VALUE
+      CASE ('DIM6_38')
+      MDL_CTLSI3 = VALUE
+      CASE ('ctlT1')
+      MDL_CTLT1 = VALUE
+      CASE ('DIM6_39')
+      MDL_CTLT1 = VALUE
+      CASE ('ctlTI1')
+      MDL_CTLTI1 = VALUE
+      CASE ('DIM6_40')
+      MDL_CTLTI1 = VALUE
+      CASE ('ctlT2')
+      MDL_CTLT2 = VALUE
+      CASE ('DIM6_41')
+      MDL_CTLT2 = VALUE
+      CASE ('ctlTI2')
+      MDL_CTLTI2 = VALUE
+      CASE ('DIM6_42')
+      MDL_CTLTI2 = VALUE
+      CASE ('ctlT3')
+      MDL_CTLT3 = VALUE
+      CASE ('DIM6_43')
+      MDL_CTLT3 = VALUE
+      CASE ('ctlTI3')
+      MDL_CTLTI3 = VALUE
+      CASE ('DIM6_44')
+      MDL_CTLTI3 = VALUE
+      CASE ('cblS1')
+      MDL_CBLS1 = VALUE
+      CASE ('DIM6_45')
+      MDL_CBLS1 = VALUE
+      CASE ('cblSI1')
+      MDL_CBLSI1 = VALUE
+      CASE ('DIM6_46')
+      MDL_CBLSI1 = VALUE
+      CASE ('cblS2')
+      MDL_CBLS2 = VALUE
+      CASE ('DIM6_47')
+      MDL_CBLS2 = VALUE
+      CASE ('cblSI2')
+      MDL_CBLSI2 = VALUE
+      CASE ('DIM6_48')
+      MDL_CBLSI2 = VALUE
+      CASE ('cblS3')
+      MDL_CBLS3 = VALUE
+      CASE ('DIM6_49')
+      MDL_CBLS3 = VALUE
+      CASE ('cblSI3')
+      MDL_CBLSI3 = VALUE
+      CASE ('DIM6_50')
+      MDL_CBLSI3 = VALUE
+      CASE ('cQq83')
+      MDL_CQQ83 = VALUE
+      CASE ('DIM6_51')
+      MDL_CQQ83 = VALUE
+      CASE ('cQq81')
+      MDL_CQQ81 = VALUE
+      CASE ('DIM6_52')
+      MDL_CQQ81 = VALUE
+      CASE ('cQu8')
+      MDL_CQU8 = VALUE
+      CASE ('DIM6_53')
+      MDL_CQU8 = VALUE
+      CASE ('cQd8')
+      MDL_CQD8 = VALUE
+      CASE ('DIM6_54')
+      MDL_CQD8 = VALUE
+      CASE ('ctq8')
+      MDL_CTQ8 = VALUE
+      CASE ('DIM6_55')
+      MDL_CTQ8 = VALUE
+      CASE ('ctu8')
+      MDL_CTU8 = VALUE
+      CASE ('DIM6_56')
+      MDL_CTU8 = VALUE
+      CASE ('ctd8')
+      MDL_CTD8 = VALUE
+      CASE ('DIM6_57')
+      MDL_CTD8 = VALUE
+      CASE ('cQq13')
+      MDL_CQQ13 = VALUE
+      CASE ('DIM6_58')
+      MDL_CQQ13 = VALUE
+      CASE ('cQq11')
+      MDL_CQQ11 = VALUE
+      CASE ('DIM6_59')
+      MDL_CQQ11 = VALUE
+      CASE ('cQu1')
+      MDL_CQU1 = VALUE
+      CASE ('DIM6_60')
+      MDL_CQU1 = VALUE
+      CASE ('cQd1')
+      MDL_CQD1 = VALUE
+      CASE ('DIM6_61')
+      MDL_CQD1 = VALUE
+      CASE ('ctq1')
+      MDL_CTQ1 = VALUE
+      CASE ('DIM6_62')
+      MDL_CTQ1 = VALUE
+      CASE ('ctu1')
+      MDL_CTU1 = VALUE
+      CASE ('DIM6_63')
+      MDL_CTU1 = VALUE
+      CASE ('ctd1')
+      MDL_CTD1 = VALUE
+      CASE ('DIM6_64')
+      MDL_CTD1 = VALUE
+      CASE ('cQQ1')
+      MDL_CQQ1 = VALUE
+      CASE ('DIM6_65')
+      MDL_CQQ1 = VALUE
+      CASE ('cQQ8')
+      MDL_CQQ8 = VALUE
+      CASE ('DIM6_66')
+      MDL_CQQ8 = VALUE
+      CASE ('cQt1')
+      MDL_CQT1 = VALUE
+      CASE ('DIM6_67')
+      MDL_CQT1 = VALUE
+      CASE ('cQb1')
+      MDL_CQB1 = VALUE
+      CASE ('DIM6_68')
+      MDL_CQB1 = VALUE
+      CASE ('ctt1')
+      MDL_CTT1 = VALUE
+      CASE ('DIM6_69')
+      MDL_CTT1 = VALUE
+      CASE ('ctb1')
+      MDL_CTB1 = VALUE
+      CASE ('DIM6_70')
+      MDL_CTB1 = VALUE
+      CASE ('cQt8')
+      MDL_CQT8 = VALUE
+      CASE ('DIM6_71')
+      MDL_CQT8 = VALUE
+      CASE ('cQb8')
+      MDL_CQB8 = VALUE
+      CASE ('DIM6_72')
+      MDL_CQB8 = VALUE
+      CASE ('ctb8')
+      MDL_CTB8 = VALUE
+      CASE ('DIM6_73')
+      MDL_CTB8 = VALUE
+      CASE ('ctQqu1')
+      MDL_CTQQU1 = VALUE
+      CASE ('DIM6_74')
+      MDL_CTQQU1 = VALUE
+      CASE ('ctQqu1I')
+      MDL_CTQQU1I = VALUE
+      CASE ('DIM6_75')
+      MDL_CTQQU1I = VALUE
+      CASE ('ctQqu8')
+      MDL_CTQQU8 = VALUE
+      CASE ('DIM6_76')
+      MDL_CTQQU8 = VALUE
+      CASE ('ctQqu8I')
+      MDL_CTQQU8I = VALUE
+      CASE ('DIM6_77')
+      MDL_CTQQU8I = VALUE
+      CASE ('cbQqd1')
+      MDL_CBQQD1 = VALUE
+      CASE ('DIM6_78')
+      MDL_CBQQD1 = VALUE
+      CASE ('cbQqd1I')
+      MDL_CBQQD1I = VALUE
+      CASE ('DIM6_79')
+      MDL_CBQQD1I = VALUE
+      CASE ('cbQqd8')
+      MDL_CBQQD8 = VALUE
+      CASE ('DIM6_80')
+      MDL_CBQQD8 = VALUE
+      CASE ('cbQqd8I')
+      MDL_CBQQD8I = VALUE
+      CASE ('DIM6_81')
+      MDL_CBQQD8I = VALUE
+      CASE ('cQtqd1')
+      MDL_CQTQD1 = VALUE
+      CASE ('DIM6_82')
+      MDL_CQTQD1 = VALUE
+      CASE ('cQtqd1I')
+      MDL_CQTQD1I = VALUE
+      CASE ('DIM6_83')
+      MDL_CQTQD1I = VALUE
+      CASE ('cQtqd8')
+      MDL_CQTQD8 = VALUE
+      CASE ('DIM6_84')
+      MDL_CQTQD8 = VALUE
+      CASE ('cQtqd8I')
+      MDL_CQTQD8I = VALUE
+      CASE ('DIM6_85')
+      MDL_CQTQD8I = VALUE
+      CASE ('cQbqu1')
+      MDL_CQBQU1 = VALUE
+      CASE ('DIM6_86')
+      MDL_CQBQU1 = VALUE
+      CASE ('cQbqu1I')
+      MDL_CQBQU1I = VALUE
+      CASE ('DIM6_87')
+      MDL_CQBQU1I = VALUE
+      CASE ('cQbqu8')
+      MDL_CQBQU8 = VALUE
+      CASE ('DIM6_88')
+      MDL_CQBQU8 = VALUE
+      CASE ('cQbqu8I')
+      MDL_CQBQU8I = VALUE
+      CASE ('DIM6_89')
+      MDL_CQBQU8I = VALUE
+      CASE ('ctQqu1T')
+      MDL_CTQQU1T = VALUE
+      CASE ('DIM6_90')
+      MDL_CTQQU1T = VALUE
+      CASE ('ctQqu1TI')
+      MDL_CTQQU1TI = VALUE
+      CASE ('DIM6_91')
+      MDL_CTQQU1TI = VALUE
+      CASE ('ctQqu8T')
+      MDL_CTQQU8T = VALUE
+      CASE ('DIM6_92')
+      MDL_CTQQU8T = VALUE
+      CASE ('ctQqu8TI')
+      MDL_CTQQU8TI = VALUE
+      CASE ('DIM6_93')
+      MDL_CTQQU8TI = VALUE
+      CASE ('cbQqd1T')
+      MDL_CBQQD1T = VALUE
+      CASE ('DIM6_94')
+      MDL_CBQQD1T = VALUE
+      CASE ('cbQqd1TI')
+      MDL_CBQQD1TI = VALUE
+      CASE ('DIM6_95')
+      MDL_CBQQD1TI = VALUE
+      CASE ('cbQqd8T')
+      MDL_CBQQD8T = VALUE
+      CASE ('DIM6_96')
+      MDL_CBQQD8T = VALUE
+      CASE ('cbQqd8TI')
+      MDL_CBQQD8TI = VALUE
+      CASE ('DIM6_97')
+      MDL_CBQQD8TI = VALUE
+      CASE ('cQtqd1T')
+      MDL_CQTQD1T = VALUE
+      CASE ('DIM6_98')
+      MDL_CQTQD1T = VALUE
+      CASE ('cQtqd1TI')
+      MDL_CQTQD1TI = VALUE
+      CASE ('DIM6_99')
+      MDL_CQTQD1TI = VALUE
+      CASE ('cQtqd8T')
+      MDL_CQTQD8T = VALUE
+      CASE ('DIM6_100')
+      MDL_CQTQD8T = VALUE
+      CASE ('cQtqd8TI')
+      MDL_CQTQD8TI = VALUE
+      CASE ('DIM6_101')
+      MDL_CQTQD8TI = VALUE
+      CASE ('cQbqu1T')
+      MDL_CQBQU1T = VALUE
+      CASE ('DIM6_102')
+      MDL_CQBQU1T = VALUE
+      CASE ('cQbqu1TI')
+      MDL_CQBQU1TI = VALUE
+      CASE ('DIM6_103')
+      MDL_CQBQU1TI = VALUE
+      CASE ('cQbqu8T')
+      MDL_CQBQU8T = VALUE
+      CASE ('DIM6_104')
+      MDL_CQBQU8T = VALUE
+      CASE ('cQbqu8TI')
+      MDL_CQBQU8TI = VALUE
+      CASE ('DIM6_105')
+      MDL_CQBQU8TI = VALUE
+      CASE ('cbtud1')
+      MDL_CBTUD1 = VALUE
+      CASE ('DIM6_106')
+      MDL_CBTUD1 = VALUE
+      CASE ('cbtud1I')
+      MDL_CBTUD1I = VALUE
+      CASE ('DIM6_107')
+      MDL_CBTUD1I = VALUE
+      CASE ('cbtud8')
+      MDL_CBTUD8 = VALUE
+      CASE ('DIM6_108')
+      MDL_CBTUD8 = VALUE
+      CASE ('cbtud8I')
+      MDL_CBTUD8I = VALUE
+      CASE ('DIM6_109')
+      MDL_CBTUD8I = VALUE
+      CASE ('cQtQb1')
+      MDL_CQTQB1 = VALUE
+      CASE ('DIM6_110')
+      MDL_CQTQB1 = VALUE
+      CASE ('cQtQb8')
+      MDL_CQTQB8 = VALUE
+      CASE ('DIM6_111')
+      MDL_CQTQB8 = VALUE
+      CASE ('cQtQb1I')
+      MDL_CQTQB1I = VALUE
+      CASE ('DIM6_112')
+      MDL_CQTQB1I = VALUE
+      CASE ('cQtQb8I')
+      MDL_CQTQB8I = VALUE
+      CASE ('DIM6_113')
+      MDL_CQTQB8I = VALUE
+      CASE ('ctpx13')
+      MDL_CTPX13 = VALUE
+      CASE ('FCNC_1')
+      MDL_CTPX13 = VALUE
+      CASE ('ctpx23')
+      MDL_CTPX23 = VALUE
+      CASE ('FCNC_2')
+      MDL_CTPX23 = VALUE
+      CASE ('ctpx31')
+      MDL_CTPX31 = VALUE
+      CASE ('FCNC_3')
+      MDL_CTPX31 = VALUE
+      CASE ('ctpx32')
+      MDL_CTPX32 = VALUE
+      CASE ('FCNC_4')
+      MDL_CTPX32 = VALUE
+      CASE ('ctpIx13')
+      MDL_CTPIX13 = VALUE
+      CASE ('FCNC_5')
+      MDL_CTPIX13 = VALUE
+      CASE ('ctpIx23')
+      MDL_CTPIX23 = VALUE
+      CASE ('FCNC_6')
+      MDL_CTPIX23 = VALUE
+      CASE ('ctpIx31')
+      MDL_CTPIX31 = VALUE
+      CASE ('FCNC_7')
+      MDL_CTPIX31 = VALUE
+      CASE ('ctpIx32')
+      MDL_CTPIX32 = VALUE
+      CASE ('FCNC_8')
+      MDL_CTPIX32 = VALUE
+      CASE ('cpQMx31')
+      MDL_CPQMX31 = VALUE
+      CASE ('FCNC_9')
+      MDL_CPQMX31 = VALUE
+      CASE ('cpQMx32')
+      MDL_CPQMX32 = VALUE
+      CASE ('FCNC_10')
+      MDL_CPQMX32 = VALUE
+      CASE ('cpQMIx31')
+      MDL_CPQMIX31 = VALUE
+      CASE ('FCNC_11')
+      MDL_CPQMIX31 = VALUE
+      CASE ('cpQMIx32')
+      MDL_CPQMIX32 = VALUE
+      CASE ('FCNC_12')
+      MDL_CPQMIX32 = VALUE
+      CASE ('cpQ3x31')
+      MDL_CPQ3X31 = VALUE
+      CASE ('FCNC_13')
+      MDL_CPQ3X31 = VALUE
+      CASE ('cpQ3x32')
+      MDL_CPQ3X32 = VALUE
+      CASE ('FCNC_14')
+      MDL_CPQ3X32 = VALUE
+      CASE ('cpQ3Ix31')
+      MDL_CPQ3IX31 = VALUE
+      CASE ('FCNC_15')
+      MDL_CPQ3IX31 = VALUE
+      CASE ('cpQ3Ix32')
+      MDL_CPQ3IX32 = VALUE
+      CASE ('FCNC_16')
+      MDL_CPQ3IX32 = VALUE
+      CASE ('cptx31')
+      MDL_CPTX31 = VALUE
+      CASE ('FCNC_17')
+      MDL_CPTX31 = VALUE
+      CASE ('cptx32')
+      MDL_CPTX32 = VALUE
+      CASE ('FCNC_18')
+      MDL_CPTX32 = VALUE
+      CASE ('cptIx31')
+      MDL_CPTIX31 = VALUE
+      CASE ('FCNC_19')
+      MDL_CPTIX31 = VALUE
+      CASE ('cptIx32')
+      MDL_CPTIX32 = VALUE
+      CASE ('FCNC_20')
+      MDL_CPTIX32 = VALUE
+      CASE ('cptbx13')
+      MDL_CPTBX13 = VALUE
+      CASE ('FCNC_21')
+      MDL_CPTBX13 = VALUE
+      CASE ('cptbx23')
+      MDL_CPTBX23 = VALUE
+      CASE ('FCNC_22')
+      MDL_CPTBX23 = VALUE
+      CASE ('cptbx31')
+      MDL_CPTBX31 = VALUE
+      CASE ('FCNC_23')
+      MDL_CPTBX31 = VALUE
+      CASE ('cptbx32')
+      MDL_CPTBX32 = VALUE
+      CASE ('FCNC_24')
+      MDL_CPTBX32 = VALUE
+      CASE ('cptbIx13')
+      MDL_CPTBIX13 = VALUE
+      CASE ('FCNC_25')
+      MDL_CPTBIX13 = VALUE
+      CASE ('cptbIx23')
+      MDL_CPTBIX23 = VALUE
+      CASE ('FCNC_26')
+      MDL_CPTBIX23 = VALUE
+      CASE ('cptbIx31')
+      MDL_CPTBIX31 = VALUE
+      CASE ('FCNC_27')
+      MDL_CPTBIX31 = VALUE
+      CASE ('cptbIx32')
+      MDL_CPTBIX32 = VALUE
+      CASE ('FCNC_28')
+      MDL_CPTBIX32 = VALUE
+      CASE ('ctAx13')
+      MDL_CTAX13 = VALUE
+      CASE ('FCNC_29')
+      MDL_CTAX13 = VALUE
+      CASE ('ctAx23')
+      MDL_CTAX23 = VALUE
+      CASE ('FCNC_30')
+      MDL_CTAX23 = VALUE
+      CASE ('ctAx31')
+      MDL_CTAX31 = VALUE
+      CASE ('FCNC_31')
+      MDL_CTAX31 = VALUE
+      CASE ('ctAx32')
+      MDL_CTAX32 = VALUE
+      CASE ('FCNC_32')
+      MDL_CTAX32 = VALUE
+      CASE ('ctAIx13')
+      MDL_CTAIX13 = VALUE
+      CASE ('FCNC_33')
+      MDL_CTAIX13 = VALUE
+      CASE ('ctAIx23')
+      MDL_CTAIX23 = VALUE
+      CASE ('FCNC_34')
+      MDL_CTAIX23 = VALUE
+      CASE ('ctAIx31')
+      MDL_CTAIX31 = VALUE
+      CASE ('FCNC_35')
+      MDL_CTAIX31 = VALUE
+      CASE ('ctAIx32')
+      MDL_CTAIX32 = VALUE
+      CASE ('FCNC_36')
+      MDL_CTAIX32 = VALUE
+      CASE ('ctZx13')
+      MDL_CTZX13 = VALUE
+      CASE ('FCNC_37')
+      MDL_CTZX13 = VALUE
+      CASE ('ctZx23')
+      MDL_CTZX23 = VALUE
+      CASE ('FCNC_38')
+      MDL_CTZX23 = VALUE
+      CASE ('ctZx31')
+      MDL_CTZX31 = VALUE
+      CASE ('FCNC_39')
+      MDL_CTZX31 = VALUE
+      CASE ('ctZx32')
+      MDL_CTZX32 = VALUE
+      CASE ('FCNC_40')
+      MDL_CTZX32 = VALUE
+      CASE ('ctZIx13')
+      MDL_CTZIX13 = VALUE
+      CASE ('FCNC_41')
+      MDL_CTZIX13 = VALUE
+      CASE ('ctZIx23')
+      MDL_CTZIX23 = VALUE
+      CASE ('FCNC_42')
+      MDL_CTZIX23 = VALUE
+      CASE ('ctZIx31')
+      MDL_CTZIX31 = VALUE
+      CASE ('FCNC_43')
+      MDL_CTZIX31 = VALUE
+      CASE ('ctZIx32')
+      MDL_CTZIX32 = VALUE
+      CASE ('FCNC_44')
+      MDL_CTZIX32 = VALUE
+      CASE ('cbWx13')
+      MDL_CBWX13 = VALUE
+      CASE ('FCNC_45')
+      MDL_CBWX13 = VALUE
+      CASE ('cbWx23')
+      MDL_CBWX23 = VALUE
+      CASE ('FCNC_46')
+      MDL_CBWX23 = VALUE
+      CASE ('cbWx31')
+      MDL_CBWX31 = VALUE
+      CASE ('FCNC_47')
+      MDL_CBWX31 = VALUE
+      CASE ('cbWx32')
+      MDL_CBWX32 = VALUE
+      CASE ('FCNC_48')
+      MDL_CBWX32 = VALUE
+      CASE ('cbWIx13')
+      MDL_CBWIX13 = VALUE
+      CASE ('FCNC_49')
+      MDL_CBWIX13 = VALUE
+      CASE ('cbWIx23')
+      MDL_CBWIX23 = VALUE
+      CASE ('FCNC_50')
+      MDL_CBWIX23 = VALUE
+      CASE ('cbWIx31')
+      MDL_CBWIX31 = VALUE
+      CASE ('FCNC_51')
+      MDL_CBWIX31 = VALUE
+      CASE ('cbWIx32')
+      MDL_CBWIX32 = VALUE
+      CASE ('FCNC_52')
+      MDL_CBWIX32 = VALUE
+      CASE ('ctGx13')
+      MDL_CTGX13 = VALUE
+      CASE ('FCNC_53')
+      MDL_CTGX13 = VALUE
+      CASE ('ctGx23')
+      MDL_CTGX23 = VALUE
+      CASE ('FCNC_54')
+      MDL_CTGX23 = VALUE
+      CASE ('ctGx31')
+      MDL_CTGX31 = VALUE
+      CASE ('FCNC_55')
+      MDL_CTGX31 = VALUE
+      CASE ('ctGx32')
+      MDL_CTGX32 = VALUE
+      CASE ('FCNC_56')
+      MDL_CTGX32 = VALUE
+      CASE ('ctGIx13')
+      MDL_CTGIX13 = VALUE
+      CASE ('FCNC_57')
+      MDL_CTGIX13 = VALUE
+      CASE ('ctGIx23')
+      MDL_CTGIX23 = VALUE
+      CASE ('FCNC_58')
+      MDL_CTGIX23 = VALUE
+      CASE ('ctGIx31')
+      MDL_CTGIX31 = VALUE
+      CASE ('FCNC_59')
+      MDL_CTGIX31 = VALUE
+      CASE ('ctGIx32')
+      MDL_CTGIX32 = VALUE
+      CASE ('FCNC_60')
+      MDL_CTGIX32 = VALUE
+      CASE ('cQl3x1x31')
+      MDL_CQL3X1X31 = VALUE
+      CASE ('FCNC_61')
+      MDL_CQL3X1X31 = VALUE
+      CASE ('cQl3x1x32')
+      MDL_CQL3X1X32 = VALUE
+      CASE ('FCNC_62')
+      MDL_CQL3X1X32 = VALUE
+      CASE ('cQl3x2x31')
+      MDL_CQL3X2X31 = VALUE
+      CASE ('FCNC_63')
+      MDL_CQL3X2X31 = VALUE
+      CASE ('cQl3x2x32')
+      MDL_CQL3X2X32 = VALUE
+      CASE ('FCNC_64')
+      MDL_CQL3X2X32 = VALUE
+      CASE ('cQl3x3x31')
+      MDL_CQL3X3X31 = VALUE
+      CASE ('FCNC_65')
+      MDL_CQL3X3X31 = VALUE
+      CASE ('cQl3x3x32')
+      MDL_CQL3X3X32 = VALUE
+      CASE ('FCNC_66')
+      MDL_CQL3X3X32 = VALUE
+      CASE ('cQl3Ix1x31')
+      MDL_CQL3IX1X31 = VALUE
+      CASE ('FCNC_67')
+      MDL_CQL3IX1X31 = VALUE
+      CASE ('cQl3Ix1x32')
+      MDL_CQL3IX1X32 = VALUE
+      CASE ('FCNC_68')
+      MDL_CQL3IX1X32 = VALUE
+      CASE ('cQl3Ix2x31')
+      MDL_CQL3IX2X31 = VALUE
+      CASE ('FCNC_69')
+      MDL_CQL3IX2X31 = VALUE
+      CASE ('cQl3Ix2x32')
+      MDL_CQL3IX2X32 = VALUE
+      CASE ('FCNC_70')
+      MDL_CQL3IX2X32 = VALUE
+      CASE ('cQl3Ix3x31')
+      MDL_CQL3IX3X31 = VALUE
+      CASE ('FCNC_71')
+      MDL_CQL3IX3X31 = VALUE
+      CASE ('cQl3Ix3x32')
+      MDL_CQL3IX3X32 = VALUE
+      CASE ('FCNC_72')
+      MDL_CQL3IX3X32 = VALUE
+      CASE ('cQlMx1x31')
+      MDL_CQLMX1X31 = VALUE
+      CASE ('FCNC_73')
+      MDL_CQLMX1X31 = VALUE
+      CASE ('cQlMx1x32')
+      MDL_CQLMX1X32 = VALUE
+      CASE ('FCNC_74')
+      MDL_CQLMX1X32 = VALUE
+      CASE ('cQlMx2x31')
+      MDL_CQLMX2X31 = VALUE
+      CASE ('FCNC_75')
+      MDL_CQLMX2X31 = VALUE
+      CASE ('cQlMx2x32')
+      MDL_CQLMX2X32 = VALUE
+      CASE ('FCNC_76')
+      MDL_CQLMX2X32 = VALUE
+      CASE ('cQlMx3x31')
+      MDL_CQLMX3X31 = VALUE
+      CASE ('FCNC_77')
+      MDL_CQLMX3X31 = VALUE
+      CASE ('cQlMx3x32')
+      MDL_CQLMX3X32 = VALUE
+      CASE ('FCNC_78')
+      MDL_CQLMX3X32 = VALUE
+      CASE ('cQlMIx1x31')
+      MDL_CQLMIX1X31 = VALUE
+      CASE ('FCNC_79')
+      MDL_CQLMIX1X31 = VALUE
+      CASE ('cQlMIx1x32')
+      MDL_CQLMIX1X32 = VALUE
+      CASE ('FCNC_80')
+      MDL_CQLMIX1X32 = VALUE
+      CASE ('cQlMIx2x31')
+      MDL_CQLMIX2X31 = VALUE
+      CASE ('FCNC_81')
+      MDL_CQLMIX2X31 = VALUE
+      CASE ('cQlMIx2x32')
+      MDL_CQLMIX2X32 = VALUE
+      CASE ('FCNC_82')
+      MDL_CQLMIX2X32 = VALUE
+      CASE ('cQlMIx3x31')
+      MDL_CQLMIX3X31 = VALUE
+      CASE ('FCNC_83')
+      MDL_CQLMIX3X31 = VALUE
+      CASE ('cQlMIx3x32')
+      MDL_CQLMIX3X32 = VALUE
+      CASE ('FCNC_84')
+      MDL_CQLMIX3X32 = VALUE
+      CASE ('cQex1x31')
+      MDL_CQEX1X31 = VALUE
+      CASE ('FCNC_85')
+      MDL_CQEX1X31 = VALUE
+      CASE ('cQex1x32')
+      MDL_CQEX1X32 = VALUE
+      CASE ('FCNC_86')
+      MDL_CQEX1X32 = VALUE
+      CASE ('cQex2x31')
+      MDL_CQEX2X31 = VALUE
+      CASE ('FCNC_87')
+      MDL_CQEX2X31 = VALUE
+      CASE ('cQex2x32')
+      MDL_CQEX2X32 = VALUE
+      CASE ('FCNC_88')
+      MDL_CQEX2X32 = VALUE
+      CASE ('cQex3x31')
+      MDL_CQEX3X31 = VALUE
+      CASE ('FCNC_89')
+      MDL_CQEX3X31 = VALUE
+      CASE ('cQex3x32')
+      MDL_CQEX3X32 = VALUE
+      CASE ('FCNC_90')
+      MDL_CQEX3X32 = VALUE
+      CASE ('cQeIx1x31')
+      MDL_CQEIX1X31 = VALUE
+      CASE ('FCNC_91')
+      MDL_CQEIX1X31 = VALUE
+      CASE ('cQeIx1x32')
+      MDL_CQEIX1X32 = VALUE
+      CASE ('FCNC_92')
+      MDL_CQEIX1X32 = VALUE
+      CASE ('cQeIx2x31')
+      MDL_CQEIX2X31 = VALUE
+      CASE ('FCNC_93')
+      MDL_CQEIX2X31 = VALUE
+      CASE ('cQeIx2x32')
+      MDL_CQEIX2X32 = VALUE
+      CASE ('FCNC_94')
+      MDL_CQEIX2X32 = VALUE
+      CASE ('cQeIx3x31')
+      MDL_CQEIX3X31 = VALUE
+      CASE ('FCNC_95')
+      MDL_CQEIX3X31 = VALUE
+      CASE ('cQeIx3x32')
+      MDL_CQEIX3X32 = VALUE
+      CASE ('FCNC_96')
+      MDL_CQEIX3X32 = VALUE
+      CASE ('ctlx1x31')
+      MDL_CTLX1X31 = VALUE
+      CASE ('FCNC_97')
+      MDL_CTLX1X31 = VALUE
+      CASE ('ctlx1x32')
+      MDL_CTLX1X32 = VALUE
+      CASE ('FCNC_98')
+      MDL_CTLX1X32 = VALUE
+      CASE ('ctlx2x31')
+      MDL_CTLX2X31 = VALUE
+      CASE ('FCNC_99')
+      MDL_CTLX2X31 = VALUE
+      CASE ('ctlx2x32')
+      MDL_CTLX2X32 = VALUE
+      CASE ('FCNC_100')
+      MDL_CTLX2X32 = VALUE
+      CASE ('ctlx3x31')
+      MDL_CTLX3X31 = VALUE
+      CASE ('FCNC_101')
+      MDL_CTLX3X31 = VALUE
+      CASE ('ctlx3x32')
+      MDL_CTLX3X32 = VALUE
+      CASE ('FCNC_102')
+      MDL_CTLX3X32 = VALUE
+      CASE ('ctlIx1x31')
+      MDL_CTLIX1X31 = VALUE
+      CASE ('FCNC_103')
+      MDL_CTLIX1X31 = VALUE
+      CASE ('ctlIx1x32')
+      MDL_CTLIX1X32 = VALUE
+      CASE ('FCNC_104')
+      MDL_CTLIX1X32 = VALUE
+      CASE ('ctlIx2x31')
+      MDL_CTLIX2X31 = VALUE
+      CASE ('FCNC_105')
+      MDL_CTLIX2X31 = VALUE
+      CASE ('ctlIx2x32')
+      MDL_CTLIX2X32 = VALUE
+      CASE ('FCNC_106')
+      MDL_CTLIX2X32 = VALUE
+      CASE ('ctlIx3x31')
+      MDL_CTLIX3X31 = VALUE
+      CASE ('FCNC_107')
+      MDL_CTLIX3X31 = VALUE
+      CASE ('ctlIx3x32')
+      MDL_CTLIX3X32 = VALUE
+      CASE ('FCNC_108')
+      MDL_CTLIX3X32 = VALUE
+      CASE ('ctex1x31')
+      MDL_CTEX1X31 = VALUE
+      CASE ('FCNC_109')
+      MDL_CTEX1X31 = VALUE
+      CASE ('ctex1x32')
+      MDL_CTEX1X32 = VALUE
+      CASE ('FCNC_110')
+      MDL_CTEX1X32 = VALUE
+      CASE ('ctex2x31')
+      MDL_CTEX2X31 = VALUE
+      CASE ('FCNC_111')
+      MDL_CTEX2X31 = VALUE
+      CASE ('ctex2x32')
+      MDL_CTEX2X32 = VALUE
+      CASE ('FCNC_112')
+      MDL_CTEX2X32 = VALUE
+      CASE ('ctex3x31')
+      MDL_CTEX3X31 = VALUE
+      CASE ('FCNC_113')
+      MDL_CTEX3X31 = VALUE
+      CASE ('ctex3x32')
+      MDL_CTEX3X32 = VALUE
+      CASE ('FCNC_114')
+      MDL_CTEX3X32 = VALUE
+      CASE ('cteIx1x31')
+      MDL_CTEIX1X31 = VALUE
+      CASE ('FCNC_115')
+      MDL_CTEIX1X31 = VALUE
+      CASE ('cteIx1x32')
+      MDL_CTEIX1X32 = VALUE
+      CASE ('FCNC_116')
+      MDL_CTEIX1X32 = VALUE
+      CASE ('cteIx2x31')
+      MDL_CTEIX2X31 = VALUE
+      CASE ('FCNC_117')
+      MDL_CTEIX2X31 = VALUE
+      CASE ('cteIx2x32')
+      MDL_CTEIX2X32 = VALUE
+      CASE ('FCNC_118')
+      MDL_CTEIX2X32 = VALUE
+      CASE ('cteIx3x31')
+      MDL_CTEIX3X31 = VALUE
+      CASE ('FCNC_119')
+      MDL_CTEIX3X31 = VALUE
+      CASE ('cteIx3x32')
+      MDL_CTEIX3X32 = VALUE
+      CASE ('FCNC_120')
+      MDL_CTEIX3X32 = VALUE
+      CASE ('ctlSx1x13')
+      MDL_CTLSX1X13 = VALUE
+      CASE ('FCNC_121')
+      MDL_CTLSX1X13 = VALUE
+      CASE ('ctlSx1x23')
+      MDL_CTLSX1X23 = VALUE
+      CASE ('FCNC_122')
+      MDL_CTLSX1X23 = VALUE
+      CASE ('ctlSx1x31')
+      MDL_CTLSX1X31 = VALUE
+      CASE ('FCNC_123')
+      MDL_CTLSX1X31 = VALUE
+      CASE ('ctlSx1x32')
+      MDL_CTLSX1X32 = VALUE
+      CASE ('FCNC_124')
+      MDL_CTLSX1X32 = VALUE
+      CASE ('ctlSx2x13')
+      MDL_CTLSX2X13 = VALUE
+      CASE ('FCNC_125')
+      MDL_CTLSX2X13 = VALUE
+      CASE ('ctlSx2x23')
+      MDL_CTLSX2X23 = VALUE
+      CASE ('FCNC_126')
+      MDL_CTLSX2X23 = VALUE
+      CASE ('ctlSx2x31')
+      MDL_CTLSX2X31 = VALUE
+      CASE ('FCNC_127')
+      MDL_CTLSX2X31 = VALUE
+      CASE ('ctlSx2x32')
+      MDL_CTLSX2X32 = VALUE
+      CASE ('FCNC_128')
+      MDL_CTLSX2X32 = VALUE
+      CASE ('ctlSx3x13')
+      MDL_CTLSX3X13 = VALUE
+      CASE ('FCNC_129')
+      MDL_CTLSX3X13 = VALUE
+      CASE ('ctlSx3x23')
+      MDL_CTLSX3X23 = VALUE
+      CASE ('FCNC_130')
+      MDL_CTLSX3X23 = VALUE
+      CASE ('ctlSx3x31')
+      MDL_CTLSX3X31 = VALUE
+      CASE ('FCNC_131')
+      MDL_CTLSX3X31 = VALUE
+      CASE ('ctlSx3x32')
+      MDL_CTLSX3X32 = VALUE
+      CASE ('FCNC_132')
+      MDL_CTLSX3X32 = VALUE
+      CASE ('ctlSIx1x13')
+      MDL_CTLSIX1X13 = VALUE
+      CASE ('FCNC_133')
+      MDL_CTLSIX1X13 = VALUE
+      CASE ('ctlSIx1x23')
+      MDL_CTLSIX1X23 = VALUE
+      CASE ('FCNC_134')
+      MDL_CTLSIX1X23 = VALUE
+      CASE ('ctlSIx1x31')
+      MDL_CTLSIX1X31 = VALUE
+      CASE ('FCNC_135')
+      MDL_CTLSIX1X31 = VALUE
+      CASE ('ctlSIx1x32')
+      MDL_CTLSIX1X32 = VALUE
+      CASE ('FCNC_136')
+      MDL_CTLSIX1X32 = VALUE
+      CASE ('ctlSIx2x13')
+      MDL_CTLSIX2X13 = VALUE
+      CASE ('FCNC_137')
+      MDL_CTLSIX2X13 = VALUE
+      CASE ('ctlSIx2x23')
+      MDL_CTLSIX2X23 = VALUE
+      CASE ('FCNC_138')
+      MDL_CTLSIX2X23 = VALUE
+      CASE ('ctlSIx2x31')
+      MDL_CTLSIX2X31 = VALUE
+      CASE ('FCNC_139')
+      MDL_CTLSIX2X31 = VALUE
+      CASE ('ctlSIx2x32')
+      MDL_CTLSIX2X32 = VALUE
+      CASE ('FCNC_140')
+      MDL_CTLSIX2X32 = VALUE
+      CASE ('ctlSIx3x13')
+      MDL_CTLSIX3X13 = VALUE
+      CASE ('FCNC_141')
+      MDL_CTLSIX3X13 = VALUE
+      CASE ('ctlSIx3x23')
+      MDL_CTLSIX3X23 = VALUE
+      CASE ('FCNC_142')
+      MDL_CTLSIX3X23 = VALUE
+      CASE ('ctlSIx3x31')
+      MDL_CTLSIX3X31 = VALUE
+      CASE ('FCNC_143')
+      MDL_CTLSIX3X31 = VALUE
+      CASE ('ctlSIx3x32')
+      MDL_CTLSIX3X32 = VALUE
+      CASE ('FCNC_144')
+      MDL_CTLSIX3X32 = VALUE
+      CASE ('ctlTx1x13')
+      MDL_CTLTX1X13 = VALUE
+      CASE ('FCNC_145')
+      MDL_CTLTX1X13 = VALUE
+      CASE ('ctlTx1x23')
+      MDL_CTLTX1X23 = VALUE
+      CASE ('FCNC_146')
+      MDL_CTLTX1X23 = VALUE
+      CASE ('ctlTx1x31')
+      MDL_CTLTX1X31 = VALUE
+      CASE ('FCNC_147')
+      MDL_CTLTX1X31 = VALUE
+      CASE ('ctlTx1x32')
+      MDL_CTLTX1X32 = VALUE
+      CASE ('FCNC_148')
+      MDL_CTLTX1X32 = VALUE
+      CASE ('ctlTx2x13')
+      MDL_CTLTX2X13 = VALUE
+      CASE ('FCNC_149')
+      MDL_CTLTX2X13 = VALUE
+      CASE ('ctlTx2x23')
+      MDL_CTLTX2X23 = VALUE
+      CASE ('FCNC_150')
+      MDL_CTLTX2X23 = VALUE
+      CASE ('ctlTx2x31')
+      MDL_CTLTX2X31 = VALUE
+      CASE ('FCNC_151')
+      MDL_CTLTX2X31 = VALUE
+      CASE ('ctlTx2x32')
+      MDL_CTLTX2X32 = VALUE
+      CASE ('FCNC_152')
+      MDL_CTLTX2X32 = VALUE
+      CASE ('ctlTx3x13')
+      MDL_CTLTX3X13 = VALUE
+      CASE ('FCNC_153')
+      MDL_CTLTX3X13 = VALUE
+      CASE ('ctlTx3x23')
+      MDL_CTLTX3X23 = VALUE
+      CASE ('FCNC_154')
+      MDL_CTLTX3X23 = VALUE
+      CASE ('ctlTx3x31')
+      MDL_CTLTX3X31 = VALUE
+      CASE ('FCNC_155')
+      MDL_CTLTX3X31 = VALUE
+      CASE ('ctlTx3x32')
+      MDL_CTLTX3X32 = VALUE
+      CASE ('FCNC_156')
+      MDL_CTLTX3X32 = VALUE
+      CASE ('ctlTIx1x13')
+      MDL_CTLTIX1X13 = VALUE
+      CASE ('FCNC_157')
+      MDL_CTLTIX1X13 = VALUE
+      CASE ('ctlTIx1x23')
+      MDL_CTLTIX1X23 = VALUE
+      CASE ('FCNC_158')
+      MDL_CTLTIX1X23 = VALUE
+      CASE ('ctlTIx1x31')
+      MDL_CTLTIX1X31 = VALUE
+      CASE ('FCNC_159')
+      MDL_CTLTIX1X31 = VALUE
+      CASE ('ctlTIx1x32')
+      MDL_CTLTIX1X32 = VALUE
+      CASE ('FCNC_160')
+      MDL_CTLTIX1X32 = VALUE
+      CASE ('ctlTIx2x13')
+      MDL_CTLTIX2X13 = VALUE
+      CASE ('FCNC_161')
+      MDL_CTLTIX2X13 = VALUE
+      CASE ('ctlTIx2x23')
+      MDL_CTLTIX2X23 = VALUE
+      CASE ('FCNC_162')
+      MDL_CTLTIX2X23 = VALUE
+      CASE ('ctlTIx2x31')
+      MDL_CTLTIX2X31 = VALUE
+      CASE ('FCNC_163')
+      MDL_CTLTIX2X31 = VALUE
+      CASE ('ctlTIx2x32')
+      MDL_CTLTIX2X32 = VALUE
+      CASE ('FCNC_164')
+      MDL_CTLTIX2X32 = VALUE
+      CASE ('ctlTIx3x13')
+      MDL_CTLTIX3X13 = VALUE
+      CASE ('FCNC_165')
+      MDL_CTLTIX3X13 = VALUE
+      CASE ('ctlTIx3x23')
+      MDL_CTLTIX3X23 = VALUE
+      CASE ('FCNC_166')
+      MDL_CTLTIX3X23 = VALUE
+      CASE ('ctlTIx3x31')
+      MDL_CTLTIX3X31 = VALUE
+      CASE ('FCNC_167')
+      MDL_CTLTIX3X31 = VALUE
+      CASE ('ctlTIx3x32')
+      MDL_CTLTIX3X32 = VALUE
+      CASE ('FCNC_168')
+      MDL_CTLTIX3X32 = VALUE
+      CASE ('cqq11x3331')
+      MDL_CQQ11X3331 = VALUE
+      CASE ('FCNC_169')
+      MDL_CQQ11X3331 = VALUE
+      CASE ('cqq11x3332')
+      MDL_CQQ11X3332 = VALUE
+      CASE ('FCNC_170')
+      MDL_CQQ11X3332 = VALUE
+      CASE ('cqq11Ix3331')
+      MDL_CQQ11IX3331 = VALUE
+      CASE ('FCNC_171')
+      MDL_CQQ11IX3331 = VALUE
+      CASE ('cqq11Ix3332')
+      MDL_CQQ11IX3332 = VALUE
+      CASE ('FCNC_172')
+      MDL_CQQ11IX3332 = VALUE
+      CASE ('cqq13x3331')
+      MDL_CQQ13X3331 = VALUE
+      CASE ('FCNC_173')
+      MDL_CQQ13X3331 = VALUE
+      CASE ('cqq13x3332')
+      MDL_CQQ13X3332 = VALUE
+      CASE ('FCNC_174')
+      MDL_CQQ13X3332 = VALUE
+      CASE ('cqq13Ix3331')
+      MDL_CQQ13IX3331 = VALUE
+      CASE ('FCNC_175')
+      MDL_CQQ13IX3331 = VALUE
+      CASE ('cqq13Ix3332')
+      MDL_CQQ13IX3332 = VALUE
+      CASE ('FCNC_176')
+      MDL_CQQ13IX3332 = VALUE
+      CASE ('cuu1x3331')
+      MDL_CUU1X3331 = VALUE
+      CASE ('FCNC_177')
+      MDL_CUU1X3331 = VALUE
+      CASE ('cuu1x3332')
+      MDL_CUU1X3332 = VALUE
+      CASE ('FCNC_178')
+      MDL_CUU1X3332 = VALUE
+      CASE ('cuu1Ix3331')
+      MDL_CUU1IX3331 = VALUE
+      CASE ('FCNC_179')
+      MDL_CUU1IX3331 = VALUE
+      CASE ('cuu1Ix3332')
+      MDL_CUU1IX3332 = VALUE
+      CASE ('FCNC_180')
+      MDL_CUU1IX3332 = VALUE
+      CASE ('cqu1x3331')
+      MDL_CQU1X3331 = VALUE
+      CASE ('FCNC_181')
+      MDL_CQU1X3331 = VALUE
+      CASE ('cqu1x3332')
+      MDL_CQU1X3332 = VALUE
+      CASE ('FCNC_182')
+      MDL_CQU1X3332 = VALUE
+      CASE ('cqu1Ix3331')
+      MDL_CQU1IX3331 = VALUE
+      CASE ('FCNC_183')
+      MDL_CQU1IX3331 = VALUE
+      CASE ('cqu1Ix3332')
+      MDL_CQU1IX3332 = VALUE
+      CASE ('FCNC_184')
+      MDL_CQU1IX3332 = VALUE
+      CASE ('cqu1x3133')
+      MDL_CQU1X3133 = VALUE
+      CASE ('FCNC_185')
+      MDL_CQU1X3133 = VALUE
+      CASE ('cqu1x3233')
+      MDL_CQU1X3233 = VALUE
+      CASE ('FCNC_186')
+      MDL_CQU1X3233 = VALUE
+      CASE ('cqu1Ix3133')
+      MDL_CQU1IX3133 = VALUE
+      CASE ('FCNC_187')
+      MDL_CQU1IX3133 = VALUE
+      CASE ('cqu1Ix3233')
+      MDL_CQU1IX3233 = VALUE
+      CASE ('FCNC_188')
+      MDL_CQU1IX3233 = VALUE
+      CASE ('cqu8x3331')
+      MDL_CQU8X3331 = VALUE
+      CASE ('FCNC_189')
+      MDL_CQU8X3331 = VALUE
+      CASE ('cqu8x3332')
+      MDL_CQU8X3332 = VALUE
+      CASE ('FCNC_190')
+      MDL_CQU8X3332 = VALUE
+      CASE ('cqu8Ix3331')
+      MDL_CQU8IX3331 = VALUE
+      CASE ('FCNC_191')
+      MDL_CQU8IX3331 = VALUE
+      CASE ('cqu8Ix3332')
+      MDL_CQU8IX3332 = VALUE
+      CASE ('FCNC_192')
+      MDL_CQU8IX3332 = VALUE
+      CASE ('cqu8x3233')
+      MDL_CQU8X3233 = VALUE
+      CASE ('FCNC_193')
+      MDL_CQU8X3233 = VALUE
+      CASE ('cqu8x3133')
+      MDL_CQU8X3133 = VALUE
+      CASE ('FCNC_194')
+      MDL_CQU8X3133 = VALUE
+      CASE ('cqu8Ix3133')
+      MDL_CQU8IX3133 = VALUE
+      CASE ('FCNC_195')
+      MDL_CQU8IX3133 = VALUE
+      CASE ('cqu8Ix3233')
+      MDL_CQU8IX3233 = VALUE
+      CASE ('FCNC_196')
+      MDL_CQU8IX3233 = VALUE
+      CASE ('cqd1x3331')
+      MDL_CQD1X3331 = VALUE
+      CASE ('FCNC_197')
+      MDL_CQD1X3331 = VALUE
+      CASE ('cqd1x3332')
+      MDL_CQD1X3332 = VALUE
+      CASE ('FCNC_198')
+      MDL_CQD1X3332 = VALUE
+      CASE ('cqd1Ix3331')
+      MDL_CQD1IX3331 = VALUE
+      CASE ('FCNC_199')
+      MDL_CQD1IX3331 = VALUE
+      CASE ('cqd1Ix3332')
+      MDL_CQD1IX3332 = VALUE
+      CASE ('FCNC_200')
+      MDL_CQD1IX3332 = VALUE
+      CASE ('cqd1x3133')
+      MDL_CQD1X3133 = VALUE
+      CASE ('FCNC_201')
+      MDL_CQD1X3133 = VALUE
+      CASE ('cqd1x3233')
+      MDL_CQD1X3233 = VALUE
+      CASE ('FCNC_202')
+      MDL_CQD1X3233 = VALUE
+      CASE ('cqd1Ix3133')
+      MDL_CQD1IX3133 = VALUE
+      CASE ('FCNC_203')
+      MDL_CQD1IX3133 = VALUE
+      CASE ('cqd1Ix3233')
+      MDL_CQD1IX3233 = VALUE
+      CASE ('FCNC_204')
+      MDL_CQD1IX3233 = VALUE
+      CASE ('cqd8x3331')
+      MDL_CQD8X3331 = VALUE
+      CASE ('FCNC_205')
+      MDL_CQD8X3331 = VALUE
+      CASE ('cqd8x3332')
+      MDL_CQD8X3332 = VALUE
+      CASE ('FCNC_206')
+      MDL_CQD8X3332 = VALUE
+      CASE ('cqd8Ix3331')
+      MDL_CQD8IX3331 = VALUE
+      CASE ('FCNC_207')
+      MDL_CQD8IX3331 = VALUE
+      CASE ('cqd8Ix3332')
+      MDL_CQD8IX3332 = VALUE
+      CASE ('FCNC_208')
+      MDL_CQD8IX3332 = VALUE
+      CASE ('cqd8x3133')
+      MDL_CQD8X3133 = VALUE
+      CASE ('FCNC_209')
+      MDL_CQD8X3133 = VALUE
+      CASE ('cqd8x3233')
+      MDL_CQD8X3233 = VALUE
+      CASE ('FCNC_210')
+      MDL_CQD8X3233 = VALUE
+      CASE ('cqd8Ix3133')
+      MDL_CQD8IX3133 = VALUE
+      CASE ('FCNC_211')
+      MDL_CQD8IX3133 = VALUE
+      CASE ('cqd8Ix3233')
+      MDL_CQD8IX3233 = VALUE
+      CASE ('FCNC_212')
+      MDL_CQD8IX3233 = VALUE
+      CASE ('cud1x3331')
+      MDL_CUD1X3331 = VALUE
+      CASE ('FCNC_213')
+      MDL_CUD1X3331 = VALUE
+      CASE ('cud1x3332')
+      MDL_CUD1X3332 = VALUE
+      CASE ('FCNC_214')
+      MDL_CUD1X3332 = VALUE
+      CASE ('cud1Ix3331')
+      MDL_CUD1IX3331 = VALUE
+      CASE ('FCNC_215')
+      MDL_CUD1IX3331 = VALUE
+      CASE ('cud1Ix3332')
+      MDL_CUD1IX3332 = VALUE
+      CASE ('FCNC_216')
+      MDL_CUD1IX3332 = VALUE
+      CASE ('cud1x3133')
+      MDL_CUD1X3133 = VALUE
+      CASE ('FCNC_217')
+      MDL_CUD1X3133 = VALUE
+      CASE ('cud1x3233')
+      MDL_CUD1X3233 = VALUE
+      CASE ('FCNC_218')
+      MDL_CUD1X3233 = VALUE
+      CASE ('cud1Ix3133')
+      MDL_CUD1IX3133 = VALUE
+      CASE ('FCNC_219')
+      MDL_CUD1IX3133 = VALUE
+      CASE ('cud1Ix3233')
+      MDL_CUD1IX3233 = VALUE
+      CASE ('FCNC_220')
+      MDL_CUD1IX3233 = VALUE
+      CASE ('cud8x3331')
+      MDL_CUD8X3331 = VALUE
+      CASE ('FCNC_221')
+      MDL_CUD8X3331 = VALUE
+      CASE ('cud8x3332')
+      MDL_CUD8X3332 = VALUE
+      CASE ('FCNC_222')
+      MDL_CUD8X3332 = VALUE
+      CASE ('cud8Ix3331')
+      MDL_CUD8IX3331 = VALUE
+      CASE ('FCNC_223')
+      MDL_CUD8IX3331 = VALUE
+      CASE ('cud8Ix3332')
+      MDL_CUD8IX3332 = VALUE
+      CASE ('FCNC_224')
+      MDL_CUD8IX3332 = VALUE
+      CASE ('cud8x3133')
+      MDL_CUD8X3133 = VALUE
+      CASE ('FCNC_225')
+      MDL_CUD8X3133 = VALUE
+      CASE ('cud8x3233')
+      MDL_CUD8X3233 = VALUE
+      CASE ('FCNC_226')
+      MDL_CUD8X3233 = VALUE
+      CASE ('cud8Ix3133')
+      MDL_CUD8IX3133 = VALUE
+      CASE ('FCNC_227')
+      MDL_CUD8IX3133 = VALUE
+      CASE ('cud8Ix3233')
+      MDL_CUD8IX3233 = VALUE
+      CASE ('FCNC_228')
+      MDL_CUD8IX3233 = VALUE
+      CASE ('cquqd1x3331')
+      MDL_CQUQD1X3331 = VALUE
+      CASE ('FCNC_229')
+      MDL_CQUQD1X3331 = VALUE
+      CASE ('cquqd1x3332')
+      MDL_CQUQD1X3332 = VALUE
+      CASE ('FCNC_230')
+      MDL_CQUQD1X3332 = VALUE
+      CASE ('cquqd1x3313')
+      MDL_CQUQD1X3313 = VALUE
+      CASE ('FCNC_231')
+      MDL_CQUQD1X3313 = VALUE
+      CASE ('cquqd1x3323')
+      MDL_CQUQD1X3323 = VALUE
+      CASE ('FCNC_232')
+      MDL_CQUQD1X3323 = VALUE
+      CASE ('cquqd1x3133')
+      MDL_CQUQD1X3133 = VALUE
+      CASE ('FCNC_233')
+      MDL_CQUQD1X3133 = VALUE
+      CASE ('cquqd1x3233')
+      MDL_CQUQD1X3233 = VALUE
+      CASE ('FCNC_234')
+      MDL_CQUQD1X3233 = VALUE
+      CASE ('cquqd1x1333')
+      MDL_CQUQD1X1333 = VALUE
+      CASE ('FCNC_235')
+      MDL_CQUQD1X1333 = VALUE
+      CASE ('cquqd1x2333')
+      MDL_CQUQD1X2333 = VALUE
+      CASE ('FCNC_236')
+      MDL_CQUQD1X2333 = VALUE
+      CASE ('cquqd1Ix3331')
+      MDL_CQUQD1IX3331 = VALUE
+      CASE ('FCNC_237')
+      MDL_CQUQD1IX3331 = VALUE
+      CASE ('cquqd1Ix3332')
+      MDL_CQUQD1IX3332 = VALUE
+      CASE ('FCNC_238')
+      MDL_CQUQD1IX3332 = VALUE
+      CASE ('cquqd1Ix3313')
+      MDL_CQUQD1IX3313 = VALUE
+      CASE ('FCNC_239')
+      MDL_CQUQD1IX3313 = VALUE
+      CASE ('cquqd1Ix3323')
+      MDL_CQUQD1IX3323 = VALUE
+      CASE ('FCNC_240')
+      MDL_CQUQD1IX3323 = VALUE
+      CASE ('cquqd1Ix3133')
+      MDL_CQUQD1IX3133 = VALUE
+      CASE ('FCNC_241')
+      MDL_CQUQD1IX3133 = VALUE
+      CASE ('cquqd1Ix3233')
+      MDL_CQUQD1IX3233 = VALUE
+      CASE ('FCNC_242')
+      MDL_CQUQD1IX3233 = VALUE
+      CASE ('cquqd1Ix1333')
+      MDL_CQUQD1IX1333 = VALUE
+      CASE ('FCNC_243')
+      MDL_CQUQD1IX1333 = VALUE
+      CASE ('cquqd1Ix2333')
+      MDL_CQUQD1IX2333 = VALUE
+      CASE ('FCNC_244')
+      MDL_CQUQD1IX2333 = VALUE
+      CASE ('cquqd8x3331')
+      MDL_CQUQD8X3331 = VALUE
+      CASE ('FCNC_245')
+      MDL_CQUQD8X3331 = VALUE
+      CASE ('cquqd8x3332')
+      MDL_CQUQD8X3332 = VALUE
+      CASE ('FCNC_246')
+      MDL_CQUQD8X3332 = VALUE
+      CASE ('cquqd8x3313')
+      MDL_CQUQD8X3313 = VALUE
+      CASE ('FCNC_247')
+      MDL_CQUQD8X3313 = VALUE
+      CASE ('cquqd8x3323')
+      MDL_CQUQD8X3323 = VALUE
+      CASE ('FCNC_248')
+      MDL_CQUQD8X3323 = VALUE
+      CASE ('cquqd8x3133')
+      MDL_CQUQD8X3133 = VALUE
+      CASE ('FCNC_249')
+      MDL_CQUQD8X3133 = VALUE
+      CASE ('cquqd8x3233')
+      MDL_CQUQD8X3233 = VALUE
+      CASE ('FCNC_250')
+      MDL_CQUQD8X3233 = VALUE
+      CASE ('cquqd8x1333')
+      MDL_CQUQD8X1333 = VALUE
+      CASE ('FCNC_251')
+      MDL_CQUQD8X1333 = VALUE
+      CASE ('cquqd8x2333')
+      MDL_CQUQD8X2333 = VALUE
+      CASE ('FCNC_252')
+      MDL_CQUQD8X2333 = VALUE
+      CASE ('cquqd8Ix3331')
+      MDL_CQUQD8IX3331 = VALUE
+      CASE ('FCNC_253')
+      MDL_CQUQD8IX3331 = VALUE
+      CASE ('cquqd8Ix3332')
+      MDL_CQUQD8IX3332 = VALUE
+      CASE ('FCNC_254')
+      MDL_CQUQD8IX3332 = VALUE
+      CASE ('cquqd8Ix3313')
+      MDL_CQUQD8IX3313 = VALUE
+      CASE ('FCNC_255')
+      MDL_CQUQD8IX3313 = VALUE
+      CASE ('cquqd8Ix3323')
+      MDL_CQUQD8IX3323 = VALUE
+      CASE ('FCNC_256')
+      MDL_CQUQD8IX3323 = VALUE
+      CASE ('cquqd8Ix3133')
+      MDL_CQUQD8IX3133 = VALUE
+      CASE ('FCNC_257')
+      MDL_CQUQD8IX3133 = VALUE
+      CASE ('cquqd8Ix3233')
+      MDL_CQUQD8IX3233 = VALUE
+      CASE ('FCNC_258')
+      MDL_CQUQD8IX3233 = VALUE
+      CASE ('cquqd8Ix1333')
+      MDL_CQUQD8IX1333 = VALUE
+      CASE ('FCNC_259')
+      MDL_CQUQD8IX1333 = VALUE
+      CASE ('cquqd8Ix2333')
+      MDL_CQUQD8IX2333 = VALUE
+      CASE ('FCNC_260')
+      MDL_CQUQD8IX2333 = VALUE
+      CASE ('cqq11x31ii')
+      MDL_CQQ11X31II = VALUE
+      CASE ('FCNC_261')
+      MDL_CQQ11X31II = VALUE
+      CASE ('cqq11x32ii')
+      MDL_CQQ11X32II = VALUE
+      CASE ('FCNC_262')
+      MDL_CQQ11X32II = VALUE
+      CASE ('cqq11Ix31ii')
+      MDL_CQQ11IX31II = VALUE
+      CASE ('FCNC_263')
+      MDL_CQQ11IX31II = VALUE
+      CASE ('cqq11Ix32ii')
+      MDL_CQQ11IX32II = VALUE
+      CASE ('FCNC_264')
+      MDL_CQQ11IX32II = VALUE
+      CASE ('cqq13x31ii')
+      MDL_CQQ13X31II = VALUE
+      CASE ('FCNC_265')
+      MDL_CQQ13X31II = VALUE
+      CASE ('cqq13x32ii')
+      MDL_CQQ13X32II = VALUE
+      CASE ('FCNC_266')
+      MDL_CQQ13X32II = VALUE
+      CASE ('cqq13Ix31ii')
+      MDL_CQQ13IX31II = VALUE
+      CASE ('FCNC_267')
+      MDL_CQQ13IX31II = VALUE
+      CASE ('cqq13Ix32ii')
+      MDL_CQQ13IX32II = VALUE
+      CASE ('FCNC_268')
+      MDL_CQQ13IX32II = VALUE
+      CASE ('cqq81x31ii')
+      MDL_CQQ81X31II = VALUE
+      CASE ('FCNC_269')
+      MDL_CQQ81X31II = VALUE
+      CASE ('cqq81x32ii')
+      MDL_CQQ81X32II = VALUE
+      CASE ('FCNC_270')
+      MDL_CQQ81X32II = VALUE
+      CASE ('cqq81Ix31ii')
+      MDL_CQQ81IX31II = VALUE
+      CASE ('FCNC_271')
+      MDL_CQQ81IX31II = VALUE
+      CASE ('cqq81Ix32ii')
+      MDL_CQQ81IX32II = VALUE
+      CASE ('FCNC_272')
+      MDL_CQQ81IX32II = VALUE
+      CASE ('cqq83x31ii')
+      MDL_CQQ83X31II = VALUE
+      CASE ('FCNC_273')
+      MDL_CQQ83X31II = VALUE
+      CASE ('cqq83x32ii')
+      MDL_CQQ83X32II = VALUE
+      CASE ('FCNC_274')
+      MDL_CQQ83X32II = VALUE
+      CASE ('cqq83Ix31ii')
+      MDL_CQQ83IX31II = VALUE
+      CASE ('FCNC_275')
+      MDL_CQQ83IX31II = VALUE
+      CASE ('cqq83Ix32ii')
+      MDL_CQQ83IX32II = VALUE
+      CASE ('FCNC_276')
+      MDL_CQQ83IX32II = VALUE
+      CASE ('cuu1x31ii')
+      MDL_CUU1X31II = VALUE
+      CASE ('FCNC_277')
+      MDL_CUU1X31II = VALUE
+      CASE ('cuu1x32ii')
+      MDL_CUU1X32II = VALUE
+      CASE ('FCNC_278')
+      MDL_CUU1X32II = VALUE
+      CASE ('cuu1Ix31ii')
+      MDL_CUU1IX31II = VALUE
+      CASE ('FCNC_279')
+      MDL_CUU1IX31II = VALUE
+      CASE ('cuu1Ix32ii')
+      MDL_CUU1IX32II = VALUE
+      CASE ('FCNC_280')
+      MDL_CUU1IX32II = VALUE
+      CASE ('cuu8x31ii')
+      MDL_CUU8X31II = VALUE
+      CASE ('FCNC_281')
+      MDL_CUU8X31II = VALUE
+      CASE ('cuu8x32ii')
+      MDL_CUU8X32II = VALUE
+      CASE ('FCNC_282')
+      MDL_CUU8X32II = VALUE
+      CASE ('cuu8Ix31ii')
+      MDL_CUU8IX31II = VALUE
+      CASE ('FCNC_283')
+      MDL_CUU8IX31II = VALUE
+      CASE ('cuu8Ix32ii')
+      MDL_CUU8IX32II = VALUE
+      CASE ('FCNC_284')
+      MDL_CUU8IX32II = VALUE
+      CASE ('cud1x31ii')
+      MDL_CUD1X31II = VALUE
+      CASE ('FCNC_285')
+      MDL_CUD1X31II = VALUE
+      CASE ('cud1x32ii')
+      MDL_CUD1X32II = VALUE
+      CASE ('FCNC_286')
+      MDL_CUD1X32II = VALUE
+      CASE ('cud1Ix31ii')
+      MDL_CUD1IX31II = VALUE
+      CASE ('FCNC_287')
+      MDL_CUD1IX31II = VALUE
+      CASE ('cud1Ix32ii')
+      MDL_CUD1IX32II = VALUE
+      CASE ('FCNC_288')
+      MDL_CUD1IX32II = VALUE
+      CASE ('cud8x31ii')
+      MDL_CUD8X31II = VALUE
+      CASE ('FCNC_289')
+      MDL_CUD8X31II = VALUE
+      CASE ('cud8x32ii')
+      MDL_CUD8X32II = VALUE
+      CASE ('FCNC_290')
+      MDL_CUD8X32II = VALUE
+      CASE ('cud8Ix31ii')
+      MDL_CUD8IX31II = VALUE
+      CASE ('FCNC_291')
+      MDL_CUD8IX31II = VALUE
+      CASE ('cud8Ix32ii')
+      MDL_CUD8IX32II = VALUE
+      CASE ('FCNC_292')
+      MDL_CUD8IX32II = VALUE
+      CASE ('cqu1x31ii')
+      MDL_CQU1X31II = VALUE
+      CASE ('FCNC_293')
+      MDL_CQU1X31II = VALUE
+      CASE ('cqu1x32ii')
+      MDL_CQU1X32II = VALUE
+      CASE ('FCNC_294')
+      MDL_CQU1X32II = VALUE
+      CASE ('cqu1Ix31ii')
+      MDL_CQU1IX31II = VALUE
+      CASE ('FCNC_295')
+      MDL_CQU1IX31II = VALUE
+      CASE ('cqu1Ix32ii')
+      MDL_CQU1IX32II = VALUE
+      CASE ('FCNC_296')
+      MDL_CQU1IX32II = VALUE
+      CASE ('cqu8x31ii')
+      MDL_CQU8X31II = VALUE
+      CASE ('FCNC_297')
+      MDL_CQU8X31II = VALUE
+      CASE ('cqu8x32ii')
+      MDL_CQU8X32II = VALUE
+      CASE ('FCNC_298')
+      MDL_CQU8X32II = VALUE
+      CASE ('cqu8Ix31ii')
+      MDL_CQU8IX31II = VALUE
+      CASE ('FCNC_299')
+      MDL_CQU8IX31II = VALUE
+      CASE ('cqu8Ix32ii')
+      MDL_CQU8IX32II = VALUE
+      CASE ('FCNC_300')
+      MDL_CQU8IX32II = VALUE
+      CASE ('cqu1xii31')
+      MDL_CQU1XII31 = VALUE
+      CASE ('FCNC_301')
+      MDL_CQU1XII31 = VALUE
+      CASE ('cqu1xii32')
+      MDL_CQU1XII32 = VALUE
+      CASE ('FCNC_302')
+      MDL_CQU1XII32 = VALUE
+      CASE ('cqu1Ixii31')
+      MDL_CQU1IXII31 = VALUE
+      CASE ('FCNC_303')
+      MDL_CQU1IXII31 = VALUE
+      CASE ('cqu1Ixii32')
+      MDL_CQU1IXII32 = VALUE
+      CASE ('FCNC_304')
+      MDL_CQU1IXII32 = VALUE
+      CASE ('cqu8xii31')
+      MDL_CQU8XII31 = VALUE
+      CASE ('FCNC_305')
+      MDL_CQU8XII31 = VALUE
+      CASE ('cqu8xii32')
+      MDL_CQU8XII32 = VALUE
+      CASE ('FCNC_306')
+      MDL_CQU8XII32 = VALUE
+      CASE ('cqu8Ixii31')
+      MDL_CQU8IXII31 = VALUE
+      CASE ('FCNC_307')
+      MDL_CQU8IXII31 = VALUE
+      CASE ('cqu8Ixii32')
+      MDL_CQU8IXII32 = VALUE
+      CASE ('FCNC_308')
+      MDL_CQU8IXII32 = VALUE
+      CASE ('cqd1x31ii')
+      MDL_CQD1X31II = VALUE
+      CASE ('FCNC_309')
+      MDL_CQD1X31II = VALUE
+      CASE ('cqd1x32ii')
+      MDL_CQD1X32II = VALUE
+      CASE ('FCNC_310')
+      MDL_CQD1X32II = VALUE
+      CASE ('cqd1Ix31ii')
+      MDL_CQD1IX31II = VALUE
+      CASE ('FCNC_311')
+      MDL_CQD1IX31II = VALUE
+      CASE ('cqd1Ix32ii')
+      MDL_CQD1IX32II = VALUE
+      CASE ('FCNC_312')
+      MDL_CQD1IX32II = VALUE
+      CASE ('cqd8Ix31ii')
+      MDL_CQD8IX31II = VALUE
+      CASE ('FCNC_313')
+      MDL_CQD8IX31II = VALUE
+      CASE ('cqd8Ix32ii')
+      MDL_CQD8IX32II = VALUE
+      CASE ('FCNC_314')
+      MDL_CQD8IX32II = VALUE
+      CASE ('cqd8x31ii')
+      MDL_CQD8X31II = VALUE
+      CASE ('FCNC_315')
+      MDL_CQD8X31II = VALUE
+      CASE ('cqd8x32ii')
+      MDL_CQD8X32II = VALUE
+      CASE ('FCNC_316')
+      MDL_CQD8X32II = VALUE
+      CASE ('cpbIx31')
+      MDL_CPBIX31 = VALUE
+      CASE ('FCNC_317')
+      MDL_CPBIX31 = VALUE
+      CASE ('cpbIx32')
+      MDL_CPBIX32 = VALUE
+      CASE ('FCNC_318')
+      MDL_CPBIX32 = VALUE
+      CASE ('cpbx31')
+      MDL_CPBX31 = VALUE
+      CASE ('FCNC_319')
+      MDL_CPBX31 = VALUE
+      CASE ('cpbx32')
+      MDL_CPBX32 = VALUE
+      CASE ('FCNC_320')
+      MDL_CPBX32 = VALUE
+      CASE ('cblSx1x13')
+      MDL_CBLSX1X13 = VALUE
+      CASE ('FCNC_321')
+      MDL_CBLSX1X13 = VALUE
+      CASE ('cblSx1x23')
+      MDL_CBLSX1X23 = VALUE
+      CASE ('FCNC_322')
+      MDL_CBLSX1X23 = VALUE
+      CASE ('cblSx1x31')
+      MDL_CBLSX1X31 = VALUE
+      CASE ('FCNC_323')
+      MDL_CBLSX1X31 = VALUE
+      CASE ('cblSx1x32')
+      MDL_CBLSX1X32 = VALUE
+      CASE ('FCNC_324')
+      MDL_CBLSX1X32 = VALUE
+      CASE ('cblSx2x13')
+      MDL_CBLSX2X13 = VALUE
+      CASE ('FCNC_325')
+      MDL_CBLSX2X13 = VALUE
+      CASE ('cblSx2x23')
+      MDL_CBLSX2X23 = VALUE
+      CASE ('FCNC_326')
+      MDL_CBLSX2X23 = VALUE
+      CASE ('cblSx2x31')
+      MDL_CBLSX2X31 = VALUE
+      CASE ('FCNC_327')
+      MDL_CBLSX2X31 = VALUE
+      CASE ('cblSx2x32')
+      MDL_CBLSX2X32 = VALUE
+      CASE ('FCNC_328')
+      MDL_CBLSX2X32 = VALUE
+      CASE ('cblSx3x13')
+      MDL_CBLSX3X13 = VALUE
+      CASE ('FCNC_329')
+      MDL_CBLSX3X13 = VALUE
+      CASE ('cblSx3x23')
+      MDL_CBLSX3X23 = VALUE
+      CASE ('FCNC_330')
+      MDL_CBLSX3X23 = VALUE
+      CASE ('cblSx3x31')
+      MDL_CBLSX3X31 = VALUE
+      CASE ('FCNC_331')
+      MDL_CBLSX3X31 = VALUE
+      CASE ('cblSx3x32')
+      MDL_CBLSX3X32 = VALUE
+      CASE ('FCNC_332')
+      MDL_CBLSX3X32 = VALUE
+      CASE ('cblSIx1x13')
+      MDL_CBLSIX1X13 = VALUE
+      CASE ('FCNC_333')
+      MDL_CBLSIX1X13 = VALUE
+      CASE ('cblSIx1x23')
+      MDL_CBLSIX1X23 = VALUE
+      CASE ('FCNC_334')
+      MDL_CBLSIX1X23 = VALUE
+      CASE ('cblSIx1x31')
+      MDL_CBLSIX1X31 = VALUE
+      CASE ('FCNC_335')
+      MDL_CBLSIX1X31 = VALUE
+      CASE ('cblSIx1x32')
+      MDL_CBLSIX1X32 = VALUE
+      CASE ('FCNC_336')
+      MDL_CBLSIX1X32 = VALUE
+      CASE ('cblSIx2x13')
+      MDL_CBLSIX2X13 = VALUE
+      CASE ('FCNC_337')
+      MDL_CBLSIX2X13 = VALUE
+      CASE ('cblSIx2x23')
+      MDL_CBLSIX2X23 = VALUE
+      CASE ('FCNC_338')
+      MDL_CBLSIX2X23 = VALUE
+      CASE ('cblSIx2x31')
+      MDL_CBLSIX2X31 = VALUE
+      CASE ('FCNC_339')
+      MDL_CBLSIX2X31 = VALUE
+      CASE ('cblSIx2x32')
+      MDL_CBLSIX2X32 = VALUE
+      CASE ('FCNC_340')
+      MDL_CBLSIX2X32 = VALUE
+      CASE ('cblSIx3x13')
+      MDL_CBLSIX3X13 = VALUE
+      CASE ('FCNC_341')
+      MDL_CBLSIX3X13 = VALUE
+      CASE ('cblSIx3x23')
+      MDL_CBLSIX3X23 = VALUE
+      CASE ('FCNC_342')
+      MDL_CBLSIX3X23 = VALUE
+      CASE ('cblSIx3x31')
+      MDL_CBLSIX3X31 = VALUE
+      CASE ('FCNC_343')
+      MDL_CBLSIX3X31 = VALUE
+      CASE ('cblSIx3x32')
+      MDL_CBLSIX3X32 = VALUE
+      CASE ('FCNC_344')
+      MDL_CBLSIX3X32 = VALUE
+      CASE ('MB')
+      MDL_MB = VALUE
+      CASE ('MASS_5')
+      MDL_MB = VALUE
+      CASE ('MT')
+      MDL_MT = VALUE
+      CASE ('MASS_6')
+      MDL_MT = VALUE
+      CASE ('MTA')
+      MDL_MTA = VALUE
+      CASE ('MASS_15')
+      MDL_MTA = VALUE
+      CASE ('MZ')
+      MDL_MZ = VALUE
+      CASE ('MASS_23')
+      MDL_MZ = VALUE
+      CASE ('MH')
+      MDL_MH = VALUE
+      CASE ('MASS_25')
+      MDL_MH = VALUE
+      CASE ('aEWM1')
+      AEWM1 = VALUE
+      CASE ('SMINPUTS_1')
+      AEWM1 = VALUE
+      CASE ('Gf')
+      MDL_GF = VALUE
+      CASE ('SMINPUTS_2')
+      MDL_GF = VALUE
+      CASE ('aS')
+      AS = VALUE
+      CASE ('SMINPUTS_3')
+      AS = VALUE
+      CASE ('ymb')
+      MDL_YMB = VALUE
+      CASE ('YUKAWA_5')
+      MDL_YMB = VALUE
+      CASE ('ymt')
+      MDL_YMT = VALUE
+      CASE ('YUKAWA_6')
+      MDL_YMT = VALUE
+      CASE ('ymtau')
+      MDL_YMTAU = VALUE
+      CASE ('YUKAWA_15')
+      MDL_YMTAU = VALUE
+      CASE ('WT')
+      MDL_WT = VALUE
+      CASE ('DECAY_6')
+      MDL_WT = VALUE
+      CASE ('WZ')
+      MDL_WZ = VALUE
+      CASE ('DECAY_23')
+      MDL_WZ = VALUE
+      CASE ('WW')
+      MDL_WW = VALUE
+      CASE ('DECAY_24')
+      MDL_WW = VALUE
+      CASE ('WH')
+      MDL_WH = VALUE
+      CASE ('DECAY_25')
+      MDL_WH = VALUE
+      CASE DEFAULT
+      WRITE(*,*) 'no parameter matching', NAME, VALUE
+      END SELECT
+
+      RETURN
+      END
+
+      SUBROUTINE UPDATE_ALL_COUP()
+      IMPLICIT NONE
+      CALL COUP()
+      RETURN
+      END
+
+
+      SUBROUTINE GET_PDG_ORDER(PDG, ALLPROC)
+      IMPLICIT NONE
+CF2PY INTEGER, intent(out) :: PDG(52,8)
+CF2PY INTEGER, intent(out) :: ALLPROC(52)
+      INTEGER PDG(52,8), PDGS(52,8)
+      INTEGER ALLPROC(52),PIDS(52)
+      DATA PDGS/ 2,2,2,2,2,2,2,2,4,4,4,4,4,4,4,4,1,1,1,1,1,1,1,1,1,1,1
+     $ ,1,3,3,3,3,3,3,3,3,3,3,3,3,-1,-1,-1,-1,-3,-3,-3,-3,5,5,5,5,-2,
+     $ -2,-2,-2,-4,-4,-4,-4,-2,-2,-2,-2,-4,-4,-4,-4,-1,-1,-1,-1,-3,-3,
+     $ -3,-3,-5,-5,-5,-5,-1,-1,-1,-1,-3,-3,-3,-3,-5,-5,-5,-5,5,5,5,5,5
+     $ ,5,5,5,-5,-5,-5,-5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+     $ ,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+     $ -11,-13,-11,-13,-11,-13,-11,-13,-11,-13,-11,-13,-11,-13,-11,-13
+     $ ,-11,-13,-11,-13,-11,-13,-11,-13,-11,-13,-11,-13,-11,-13,-11,
+     $ -13,-11,-13,-11,-13,-11,-13,-11,-13,-11,-13,-11,-13,-11,-13,-11
+     $ ,-13,-11,-13,-11,-13,12,14,12,14,12,14,12,14,12,14,12,14,12,14
+     $ ,12,14,12,14,12,14,12,14,12,14,12,14,12,14,12,14,12,14,12,14,12
+     $ ,14,12,14,12,14,12,14,12,14,12,14,12,14,12,14,12,14,-5,-5,-5,-5
+     $ ,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5
+     $ ,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5,-5
+     $ ,-5,-5,-5,-5,-5,-5,11,11,13,13,11,11,13,13,11,11,13,13,11,11,13
+     $ ,13,11,11,13,13,11,11,13,13,11,11,13,13,11,11,13,13,11,11,13,13
+     $ ,11,11,13,13,11,11,13,13,11,11,13,13,11,11,13,13,-12,-12,-14,
+     $ -14,-12,-12,-14,-14,-12,-12,-14,-14,-12,-12,-14,-14,-12,-12,-14
+     $ ,-14,-12,-12,-14,-14,-12,-12,-14,-14,-12,-12,-14,-14,-12,-12,
+     $ -14,-14,-12,-12,-14,-14,-12,-12,-14,-14,-12,-12,-14,-14,-12,-12
+     $ ,-14,-14 /
+      DATA PIDS/ 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+     $ ,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1 /
+      PDG = PDGS
+      ALLPROC = PIDS
+      RETURN
+      END
+
+      SUBROUTINE GET_PREFIX(PREFIX)
+      IMPLICIT NONE
+CF2PY CHARACTER*20, intent(out) :: PREFIX(52)
+      CHARACTER*20 PREFIX(52),PREF(52)
+      DATA PREF / 'M4_','M5_','M6_','M7_','M8_','M9_','M10_','M11_'
+     $ ,'M12_','M13_','M14_','M15_','M16_','M17_','M18_','M19_','M20_'
+     $ ,'M21_','M22_','M23_','M24_','M25_','M26_','M27_','M28_','M29_'
+     $ ,'M30_','M31_','M32_','M33_','M34_','M35_','M36_','M37_','M38_'
+     $ ,'M39_','M40_','M41_','M42_','M43_','M68_','M69_','M70_','M71_'
+     $ ,'M80_','M81_','M82_','M83_','M92_','M93_','M94_','M95_'/
+      PREFIX = PREF
+      RETURN
+      END
+
+
+

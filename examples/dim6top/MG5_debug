@@ -1,0 +1,71 @@
+#************************************************************
+#*                     MadGraph5_aMC@NLO                    *
+#*                                                          *
+#*                *                       *                 *
+#*                  *        * *        *                   *
+#*                    * * * * 5 * * * *                     *
+#*                  *        * *        *                   *
+#*                *                       *                 *
+#*                                                          *
+#*                                                          *
+#*         VERSION 2.8.3.2               2021-02-02         *
+#*                                                          *
+#*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+#*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+#*                                                          *
+#************************************************************
+#*                                                          *
+#*               Command File for MadGraph5_aMC@NLO         *
+#*                                                          *
+#*     run as ./bin/mg5_aMC  filename                       *
+#*                                                          *
+#************************************************************
+set group_subprocesses Auto
+set ignore_six_quark_processes False
+set low_mem_multicore_nlo_generation False
+set complex_mass_scheme False
+set gauge unitary
+set loop_optimized_output True
+set loop_color_flows False
+set max_npoint_for_channel 0
+set default_unset_couplings 99
+set max_t_for_channel 99
+set zerowidth_tchannel True
+launch ./mg_processes/signal2
+Traceback (most recent call last):
+  File "/nfs/dust/cms/user/zimermma/madminer/MG5_aMC_v2_8_3_2/madgraph/interface/extended_cmd.py", line 1541, in onecmd
+    return self.onecmd_orig(line, **opt)
+  File "/nfs/dust/cms/user/zimermma/madminer/MG5_aMC_v2_8_3_2/madgraph/interface/extended_cmd.py", line 1490, in onecmd_orig
+    return func(arg, **opt)
+  File "/nfs/dust/cms/user/zimermma/madminer/MG5_aMC_v2_8_3_2/madgraph/interface/master_interface.py", line 281, in do_import
+    self.cmd.do_import(self, *args, **opts)
+  File "/nfs/dust/cms/user/zimermma/madminer/MG5_aMC_v2_8_3_2/madgraph/interface/madgraph_interface.py", line 5551, in do_import
+    self.import_command_file(args[1])
+  File "/nfs/dust/cms/user/zimermma/madminer/MG5_aMC_v2_8_3_2/madgraph/interface/extended_cmd.py", line 1687, in import_command_file
+    self.exec_cmd(line, precmd=True)
+  File "/nfs/dust/cms/user/zimermma/madminer/MG5_aMC_v2_8_3_2/madgraph/interface/extended_cmd.py", line 1570, in exec_cmd
+    stop = Cmd.onecmd_orig(current_interface, line, **opt)
+  File "/nfs/dust/cms/user/zimermma/madminer/MG5_aMC_v2_8_3_2/madgraph/interface/extended_cmd.py", line 1490, in onecmd_orig
+    return func(arg, **opt)
+  File "/nfs/dust/cms/user/zimermma/madminer/MG5_aMC_v2_8_3_2/madgraph/interface/master_interface.py", line 509, in do_launch
+    return self.cmd.do_launch(self, line, *argss, **opts)
+  File "/nfs/dust/cms/user/zimermma/madminer/MG5_aMC_v2_8_3_2/madgraph/interface/madgraph_interface.py", line 7219, in do_launch
+    ext_program.run()
+  File "/nfs/dust/cms/user/zimermma/madminer/MG5_aMC_v2_8_3_2/madgraph/interface/launch_ext_program.py", line 80, in run
+    self.launch_program()
+  File "/nfs/dust/cms/user/zimermma/madminer/MG5_aMC_v2_8_3_2/madgraph/interface/launch_ext_program.py", line 404, in launch_program
+    misc.compile(cwd=cur_path, mode='unknown')
+  File "/nfs/dust/cms/user/zimermma/madminer/MG5_aMC_v2_8_3_2/madgraph/various/misc.py", line 546, in compile
+    raise MadGraph5Error(error_text)
+madgraph.MadGraph5Error: A compilation Error occurs when trying to compile /nfs/dust/cms/user/zimermma/madminer/examples/dim6top/mg_processes/signal2/SubProcesses/P1_qq_ttx_t_bwp_wp_lvl_tx_bxwm_wm_lvl.
+The compilation fails with the following output message:
+    gfortran -O -w -fbounds-check -fPIC -ffixed-line-length-132 -w -c driver.f -I../../Source/
+    gfortran: error: driver.f: No such file or directory
+    gfortran: fatal error: no input files
+    compilation terminated.
+    make: *** [driver.o] Error 4
+    
+Please try to fix this compilations issue and retry.
+Help might be found at https://answers.launchpad.net/mg5amcnlo.
+If you think that this is a bug, you can report this at https://bugs.launchpad.net/mg5amcnlo
+Fail to write options with error No model currently active, please import a model!

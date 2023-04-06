@@ -911,6 +911,7 @@ def _load_analysis_params(file_name: str) -> Dict[str, AnalysisParameter]:
             int(max_power),
             tuple(range),
             str(transform),
+            label=None
         )
 
     return parameters

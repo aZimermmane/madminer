@@ -1,0 +1,53 @@
+#************************************************************
+#*                     MadGraph5_aMC@NLO                    *
+#*                                                          *
+#*                *                       *                 *
+#*                  *        * *        *                   *
+#*                    * * * * 5 * * * *                     *
+#*                  *        * *        *                   *
+#*                *                       *                 *
+#*                                                          *
+#*                                                          *
+#*         VERSION 2.8.3.2               2021-02-02         *
+#*                                                          *
+#*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+#*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+#*                                                          *
+#************************************************************
+#*                                                          *
+#*               Command File for MadGraph5_aMC@NLO         *
+#*                                                          *
+#*     run as ./bin/mg5_aMC  filename                       *
+#*                                                          *
+#************************************************************
+set low_mem_multicore_nlo_generation False
+set default_unset_couplings 99
+set max_t_for_channel 99
+set zerowidth_tchannel True
+set group_subprocesses Auto
+set ignore_six_quark_processes False
+set loop_optimized_output True
+set loop_color_flows False
+set gauge unitary
+set complex_mass_scheme False
+set max_npoint_for_channel 0
+import model sm
+define p = g u c d s u~ c~ d~ s~
+define j = g u c d s u~ c~ d~ s~
+define l+ = e+ mu+
+define l- = e- mu-
+define vl = ve vm vt
+define vl~ = ve~ vm~ vt~
+!cat ${CDGPATH}/genproductions/bin/MadGraph5_aMCatNLO/cards/EFT_dim6/t\
+tbar_decayed_5f_LO_dim6top/ttbar_decayed_5f_LO_dim6top_run_card.dat
+import model dim6top_LO_UFO-ctG_ctq8
+define p = g u c d s u~ c~ d~ s~
+define j = g u c d s u~ c~ d~ s~
+define l+ = e+ mu+
+define l- = e- mu-
+define vl = ve vm vt
+define vl~ = ve~ vm~ vt~
+define p = p b b~
+define j = p
+generate p p > t t~ DIM6=1, (t > b w+ DIM6=0, w+ > l+ vl DIM6=0 ) , (t\
+~ > b~ w- DIM6=0 , w- > l- vl~ DIM6=0) FCNC=0

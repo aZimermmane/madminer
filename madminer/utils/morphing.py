@@ -13,6 +13,7 @@ from madminer.utils.various import sanitize_array
 
 logger = logging.getLogger(__name__)
 
+weightCuttoff=10**4
 
 class PhysicsMorpher:
     """
@@ -74,6 +75,7 @@ class PhysicsMorpher:
             self.use_madminer_interface = True
             self.n_parameters = len(parameters_from_madminer)
             self.parameter_names = [param.name for param in parameters_from_madminer.values()]
+            self.parameter_label = [param.label for param in parameters_from_madminer.values()] #A.Z.S: 18jan2023
             self.parameter_max_power = [param.max_power for param in parameters_from_madminer.values()]
             self.parameter_range = [param.val_range for param in parameters_from_madminer.values()]
 
@@ -85,6 +87,7 @@ class PhysicsMorpher:
             self.use_madminer_interface = False
             self.n_parameters = len(parameter_max_power)
             self.parameter_names = None
+            self.parameter_label = None #A.Z.S: 18jan2023
             self.parameter_max_power = parameter_max_power
             self.parameter_range = np.array(parameter_range)
 
@@ -420,6 +423,7 @@ class PhysicsMorpher:
         component_weights = np.array(component_weights)
 
         # Transform to basis weights
+        #print("morphing_matrix.T.dot(component_weights): ", morphing_matrix.T.dot(component_weights))
         return morphing_matrix.T.dot(component_weights)
 
     def calculate_morphing_weight_gradient(self, theta, basis=None, morphing_matrix=None):
@@ -550,6 +554,12 @@ class PhysicsMorpher:
 
         for theta in thetas_test:
             weights = self.calculate_morphing_weights(theta, basis, morphing_matrix)
+            if return_weights_and_thetas:
+                #import pdb; pdb.set_trace()
+                 if (np.sum(weights * weights) ** 0.5>weightCuttoff):
+                     print("sqrt(sum_i(w_i^2)) bigger than ",weightCuttoff, " for")
+                     print("theta_test: ", theta_test)
+                     print("     sqrt(sum_i(w_i^2)); ", np.sum(wi * wi) ** 0.5)
             squared_weights += np.sum(weights * weights)
 
             if return_weights_and_thetas:

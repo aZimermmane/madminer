@@ -1,0 +1,4 @@
+1       u u~ > ve e+ b e- ve~ b~,c c~ > ve e+ b e- ve~ b~,u u~ > vm mu+ b e- ve~ b~,c c~ > vm mu+ b e- ve~ b~,u u~ > ve e+ b mu- vm~ b~,c c~ > ve e+ b mu- vm~ b~,u u~ > vm mu+ b mu- vm~ b~,c c~ > vm mu+ b mu- vm~ b~
+mirror  u~ u > ve e+ b e- ve~ b~,c~ c > ve e+ b e- ve~ b~,u~ u > vm mu+ b e- ve~ b~,c~ c > vm mu+ b e- ve~ b~,u~ u > ve e+ b mu- vm~ b~,c~ c > ve e+ b mu- vm~ b~,u~ u > vm mu+ b mu- vm~ b~,c~ c > vm mu+ b mu- vm~ b~
+2       d d~ > ve e+ b e- ve~ b~,s s~ > ve e+ b e- ve~ b~,d d~ > vm mu+ b e- ve~ b~,s s~ > vm mu+ b e- ve~ b~,d d~ > ve e+ b mu- vm~ b~,s s~ > ve e+ b mu- vm~ b~,d d~ > vm mu+ b mu- vm~ b~,s s~ > vm mu+ b mu- vm~ b~
+mirror  d~ d > ve e+ b e- ve~ b~,s~ s > ve e+ b e- ve~ b~,d~ d > vm mu+ b e- ve~ b~,s~ s > vm mu+ b e- ve~ b~,d~ d > ve e+ b mu- vm~ b~,s~ s > ve e+ b mu- vm~ b~,d~ d > vm mu+ b mu- vm~ b~,s~ s > vm mu+ b mu- vm~ b~
