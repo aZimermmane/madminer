@@ -13,7 +13,7 @@
 ###################################
 Block dim6 
     1 1.000000e+03 # Lambda 
-    16    -20.0    # MadMiner
+    16    -2.0    # MadMiner
     55    0.0    # MadMiner
 
 ## INFORMATION FOR FCNC

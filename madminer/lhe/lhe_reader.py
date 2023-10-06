@@ -551,7 +551,7 @@ class LHEReader:
         logger.debug("Resetting efficiencies")
         self.efficiencies = []
 
-    def analyse_samples(self, reference_benchmark=None, parse_events_as_xml=True):
+    def analyse_samples(self, reference_benchmark=None, parse_events_as_xml=True,debug=False):
         """
         Main function that parses the LHE samples, applies detector effects, checks cuts,
         evaluate efficiencies, and extracts the observables and weights.
@@ -567,6 +567,10 @@ class LHEReader:
         parse_events_as_xml : bool, optional
             Decides whether the LHE events are parsed with an XML parser (more robust, but slower) or a text parser
             (less robust, faster). Default value: True.
+
+        Debug : bool, optional
+            If debug is set to True, analyse only the first 100 events.
+
 
         Returns
         -------
@@ -612,6 +616,7 @@ class LHEReader:
                 reference_benchmark,
                 sampling_benchmark,
                 sample_syst_names,
+                debug
             )
 
             # No results?
@@ -685,6 +690,7 @@ class LHEReader:
         reference_benchmark,
         sampling_benchmark,
         sample_syst_names,
+        debug
     ):
         # Relevant systematics
         systematics_used = OrderedDict()
@@ -742,6 +748,7 @@ class LHEReader:
             k_factor=k_factor,
             parse_events_as_xml=parse_events_as_xml,
             systematics_dict=systematics_dict,
+            debug=debug,
         )
 
         # No events found?

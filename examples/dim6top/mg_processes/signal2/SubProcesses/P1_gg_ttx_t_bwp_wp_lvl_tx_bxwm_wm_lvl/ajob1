@@ -17,7 +17,7 @@ fi
 script=ajob1                         
 
 grid_directory=
-j=G2a0
+j=G1
      if [[ ! -e $j ]]; then
           mkdir $j
           if [[ -e $grid_directory/ftn26 ]];then
@@ -39,8 +39,8 @@ j=G2a0
           cp ftn26 ftn25
      fi
      # create the input file
-         echo "    1857       9       3" >& input_sg.txt
-         echo "    -49.19618966410809" >> input_sg.txt
+         echo "    2534       9       3" >& input_sg.txt
+         echo "    -594.5321573174401" >> input_sg.txt
      if [[ ! -e ftn25 ]]; then
          echo "2" >> input_sg.txt   # grid refinement
          echo "1" >> input_sg.txt   # suppress amplitude
@@ -50,7 +50,7 @@ j=G2a0
          echo "1" >> input_sg.txt
      fi
      echo "0" >> input_sg.txt
-     echo "2" >> input_sg.txt
+     echo "1" >> input_sg.txt
 
      # run the executable. The loop is design to avoid
      # filesystem problem (executable not found)

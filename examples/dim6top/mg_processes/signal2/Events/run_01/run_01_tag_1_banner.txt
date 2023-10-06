@@ -354,7 +354,7 @@ False = use_syst
 ###################################
 Block dim6 
     1 1.000000e+03 # Lambda 
-    16    20.0    # MadMiner
+    16    2.0    # MadMiner
     55    0.0    # MadMiner
 
 ## INFORMATION FOR FCNC
@@ -432,7 +432,7 @@ DECAY  22 0.000000e+00 # a : 0.0
 </slha>
 <MGGenerationInfo>
 #  Number of Events        :       10000
-#  Integrated weight (pb)  :       450.25777196781996
+#  Integrated weight (pb)  :       34.542470068469996
 </MGGenerationInfo>
 </header>
 </LesHouchesEvents>

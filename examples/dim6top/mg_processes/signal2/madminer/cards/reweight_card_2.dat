@@ -12,23 +12,23 @@ launch --rwgt_name=sm
 
 # MadMiner benchmark ctG
 launch --rwgt_name=ctG
-  set DIM6 16 20.0
+  set DIM6 16 2.0
   set DIM6 55 0.0
 
 
 # MadMiner benchmark neg_ctG
 launch --rwgt_name=neg_ctG
-  set DIM6 16 -20.0
+  set DIM6 16 -2.0
   set DIM6 55 0.0
 
 
 # MadMiner benchmark neg_ctq8
 launch --rwgt_name=neg_ctq8
   set DIM6 16 0.0
-  set DIM6 55 -50.0
+  set DIM6 55 -5.0
 
 
 # MadMiner benchmark morphing_basis_vector_5
 launch --rwgt_name=morphing_basis_vector_5
-  set DIM6 16 -19.942296713458177
-  set DIM6 55 47.72412463266326
+  set DIM6 16 1.955447624847929
+  set DIM6 55 -4.8935836462268405

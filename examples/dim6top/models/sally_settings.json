@@ -1,1 +1,1 @@
-{"n_observables": 3, "n_parameters": 2, "features": null, "n_hidden": [30, 30], "activation": "tanh", "dropout_prob": 0.0, "estimator_type": "score", "nuisance_mode_default": "keep"}
+{"n_observables": 12, "n_parameters": 2, "features": null, "n_hidden": [60, 60, 60, 60, 60], "activation": "tanh", "dropout_prob": 0.0, "estimator_type": "score", "nuisance_mode_default": "keep"}

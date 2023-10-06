@@ -36,6 +36,7 @@ def parse_lhe_file(
     k_factor=1.0,
     parse_events_as_xml=True,
     systematics_dict=None,
+    debug=False
 ):
     """ Extracts observables and weights from a LHE file """
 
@@ -131,9 +132,10 @@ def parse_lhe_file(
     if parse_events_as_xml:
         events = _untar_and_parse_lhe_file(filename, ["event"])
         for i_event, event in enumerate(events, start=1):
-            if i_event == 100:
-                logger.info("  Break at event %d/%d", i_event, n_events_runcard)
-                break
+            if debug:
+                if i_event == 100:
+                    logger.info("DEBUG Mode is set:  Break at event %d/%d", i_event, n_events_runcard)
+                    break
             if i_event % 100000 == 0:
                 logger.info("  Processing event %d/%d", i_event, n_events_runcard)
 
@@ -172,9 +174,10 @@ def parse_lhe_file(
     else:
         # Iterate over events in LHE file
         for i_event, (particles, weights) in enumerate(_parse_txt_events(filename, sampling_benchmark), start=1):
-            if i_event == 10:
-                logger.info("  Break at event %d/%d", i_event, n_events_runcard)
-                break
+            if debug:
+                if i_event == 100:
+                    logger.info("DEBUG Mode is set:  Break at event %d/%d", i_event, n_events_runcard)
+                    break
             if i_event % 100000 == 0:
                 logger.info("  Processing event %d/%d", i_event, n_events_runcard)
 

@@ -1,0 +1,54 @@
+# HTCondor submit file to submit all jobs
+
+executable              = /nfs/dust/cms/user/zimermma/miniconda3/envs/madminer/bin/python
+arguments               = 3b_score.py --nsamples $(samples) --nepochs 50 --hiddenlayers $(layers) --units $(unit)
+log                     = /afs/desy.de/user/z/zimermma/work/madminer/dim6top/3b_score_s_$(samples)_l_$(layers)_u_$(unit).log
+output                  = /afs/desy.de/user/z/zimermma/work/madminer/dim6top/3b_score_s_$(samples)_l_$(layers)_u_$(unit).out
+error                   = /afs/desy.de/user/z/zimermma/work//madminer/dim6top/3b_score_s_$(samples)_l_$(layers)_u_$(unit).out
+getenv = TRUE
+should_transfer_files   = NO
+#when_to_transfer_output = ON_EXIT #_OR_EVICT
+request_memory          = 4G
+request_cpus            = 2
+notification            = error
+max_retries             = 3
++RequestRuntime         = 432000
+queue 1 samples,layers,unit from(
+    500000, 2, 30
+    500000, 2, 60
+    500000, 2, 90
+    500000, 3, 30
+    500000, 3, 60
+    500000, 3, 90
+    500000, 4, 30
+    500000, 4, 60
+    500000, 4, 90
+    500000, 5, 30
+    500000, 5, 60
+    500000, 5, 90
+    1000000, 2, 30
+    1000000, 2, 60
+    1000000, 2, 90
+    1000000, 3, 30
+    1000000, 3, 60
+    1000000, 3, 90
+    1000000, 4, 30
+    1000000, 4, 60
+    1000000, 4, 90
+    1000000, 5, 30
+    1000000, 5, 60
+    1000000, 5, 90
+    5000000, 2, 30
+    5000000, 2, 60
+    5000000, 2, 90
+    5000000, 3, 30
+    5000000, 3, 60
+    5000000, 3, 90
+    5000000, 4, 30
+    5000000, 4, 60
+    5000000, 4, 90
+    5000000, 5, 30
+    5000000, 5, 60
+    5000000, 5, 90
+)
+#queue 1 operator in ut
